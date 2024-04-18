@@ -1,0 +1,88 @@
+# darshan log version: 3.41
+# compression method: ZLIB
+# exe: srun dlio_benchmark workload=tensorflow_unet3d ++workload.workflow.generate_data=False ++workload.workflow.train=True 
+# uid: 104476
+# jobid: 22306218
+# start_time: 1709203446
+# start_time_asci: Thu Feb 29 02:44:06 2024
+# end_time: 1709203523
+# end_time_asci: Thu Feb 29 02:45:23 2024
+# nprocs: 1
+# run time: 76.5216
+# metadata: lib_ver = 3.4.4
+# metadata: h = romio_no_indep_rw=true;cb_nodes=4
+
+# log file regions
+# -------------------------------------------------------
+# header: 1328 bytes (uncompressed)
+# job data: 639 bytes (compressed)
+# record table: 0 bytes (compressed)
+
+# mounted file systems (mount point and fs type)
+# -------------------------------------------------------
+# mount entry:	/var/opt/cray/analytics/analytics_image/base	squashfs
+# mount entry:	/run/credentials/systemd-sysusers.service	ramfs
+# mount entry:	/var/opt/cray/pe/pe_images/nvidia-23.12	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/nvidia-23.03	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/nvidia-23.02	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/nvidia-23.09	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/nvidia-23.05	squashfs
+# mount entry:	/etc/opt/cray/analytics/admin-analytics	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/intel-23.12	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/intel-23.03	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/intel-23.02	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/intel-23.09	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/intel-23.05	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/base-23.12	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/aocc-23.12	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/base-23.03	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/aocc-23.03	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/base-23.02	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/aocc-23.02	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/base-23.09	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/aocc-23.09	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/base-23.05	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/aocc-23.05	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/nvhpc	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/intel	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/aocc	squashfs
+# mount entry:	/sys/firmware/efi/efivars	efivarfs
+# mount entry:	/sys/kernel/debug/tracing	tracefs
+# mount entry:	/opt/cray/analytics/bin	squashfs
+# mount entry:	/opt/cray/chapel/1.30.0	squashfs
+# mount entry:	/sys/kernel/tracing	tracefs
+# mount entry:	/opt/nvidia/hpc_sdk	overlay
+# mount entry:	/sys/kernel/config	configfs
+# mount entry:	/.rootfs_lower_ro	squashfs
+# mount entry:	/usr/share/lmod	overlay
+# mount entry:	/sys/fs/cgroup	cgroup2
+# mount entry:	/sys/fs/pstore	pstore
+# mount entry:	/global/common	dvs
+# mount entry:	/dvs_rw/common	dvs
+# mount entry:	/dvs_ro/common	dvs
+# mount entry:	/scratch/cvmfs	ext4
+# mount entry:	/run/cxi/cxi0	fuse
+# mount entry:	/opt/cray/pe	overlay
+# mount entry:	/dev/mqueue	mqueue
+# mount entry:	/sys/fs/bpf	bpf
+# mount entry:	/global/dna	dvs
+# mount entry:	/global/cfs	dvs
+# mount entry:	/dvs_rw/dna	dvs
+# mount entry:	/dvs_rw/cfs	dvs
+# mount entry:	/dvs_ro/dna	dvs
+# mount entry:	/dvs_ro/cfs	dvs
+# mount entry:	/opt/intel	overlay
+# mount entry:	/global/u1	dvs
+# mount entry:	/global/u2	dvs
+# mount entry:	/dvs_rw/u1	dvs
+# mount entry:	/dvs_rw/u2	dvs
+# mount entry:	/dvs_ro/u1	dvs
+# mount entry:	/dvs_ro/u2	dvs
+# mount entry:	/pscratch	lustre
+# mount entry:	/opt/AMD	overlay
+# mount entry:	/dvs_rw	overlay
+# mount entry:	/dev	devtmpfs
+# mount entry:	/lus	lustre
+# mount entry:	/	overlay
+
+# no DXT module data available for this Darshan log.

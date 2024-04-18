@@ -1,0 +1,2626 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10
+[2KGIL: 70.00%, Active: 70.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 30.00%  40.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K 10.00%  10.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K 10.00%  10.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K 10.00%  10.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K 10.00%  20.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%  20.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%  50.00%   0.000s    0.050s   wrapper (dlio_profiler/logger.py)
+[2K  0.00%  20.00%   0.000s    0.020s   constant (tensorflow/python/framework/const
+[2K  0.00%  70.00%   0.000s    0.070s   run_job (hydra/core/utils.py)
+[2K  0.00%  20.00%   0.000s    0.020s   __init__ (dlio_benchmark/checkpointing/tf_c
+[2K  0.00%  10.00%   0.000s    0.010s   get_storage (dlio_benchmark/storage/storage
+[2K  0.00%  40.00%   0.000s    0.040s   _load_unlocked (<frozen importlib._bootstra
+[2K  0.00%  40.00%   0.000s    0.040s   stack (inspect.py)
+[2K  0.00%  20.00%   0.000s    0.020s   get_tensor (dlio_benchmark/checkpointing/tf
+[2K  0.00%  20.00%   0.000s    0.020s   get_instance (dlio_benchmark/checkpointing/
+[2K  0.00%  10.00%   0.000s    0.010s   get_framework (dlio_benchmark/framework/fra
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 100
+[2KGIL: 0.00%, Active: 5.56%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  5.56%   5.56%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   constant (tensorflow/python/framework/const
+[2K  0.00%   5.56%   0.000s    0.120s   run_job (hydra/core/utils.py)
+[2K  0.00%   5.56%   0.000s    0.100s   wrapper (dlio_profiler/logger.py)
+[2K  0.00%   0.00%   0.000s    0.010s   get_storage (dlio_benchmark/storage/storage
+[2K  0.00%   0.00%   0.000s    0.040s   _load_unlocked (<frozen importlib._bootstra
+[2K  0.00%   0.00%   0.000s    0.040s   stack (inspect.py)
+[2K  0.00%   5.56%   0.000s    0.070s   get_tensor (dlio_benchmark/checkpointing/tf
+[2K  0.00%   5.56%   0.000s    0.070s   get_instance (dlio_benchmark/checkpointing/
+[2K  0.00%   0.00%   0.000s    0.010s   get_framework (dlio_benchmark/framework/fra
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 200
+[2KGIL: 77.00%, Active: 81.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 81.00%  81.00%   0.810s    0.810s   build_sample_map_iter (dlio_benchmark/utils
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.010s   getsourcefile (inspect.py)
+[2K  0.00%  81.00%   0.000s    0.930s   <module> (dlio_benchmark/main.py)
+[2K  0.00%   0.00%   0.000s    0.040s   stack (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.010s   get_framework (dlio_benchmark/framework/fra
+[2K  0.00%   0.00%   0.000s    0.070s   error_handler (tensorflow/python/util/trace
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_tensor_conversion_function (tenso
+[2K  0.00%  81.00%   0.000s    0.930s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.010s   LoadConfig (dlio_benchmark/utils/config.py)
+[2K  0.00%   0.00%   0.000s    0.100s   initialize (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 300
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 55.00% 100.00%    1.36s     1.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 17.00%  45.00%   0.170s    0.450s   abspath (posixpath.py)
+[2K 14.00%  14.00%   0.140s    0.140s   normpath (posixpath.py)
+[2K 11.00%  11.00%   0.110s    0.110s   join (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  2.00%   3.00%   0.020s    0.030s   isabs (posixpath.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  1.00%   1.00%   0.010s    0.010s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s     1.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 400
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 17.00% 100.00%    1.53s     2.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 38.00%  38.00%   0.520s    0.520s   normpath (posixpath.py)
+[2K 20.00%  83.00%   0.370s     1.28s   abspath (posixpath.py)
+[2K 15.00%  16.00%   0.260s    0.270s   join (posixpath.py)
+[2K  8.00%   9.00%   0.100s    0.120s   isabs (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  2.00%   2.00%   0.030s    0.030s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s     2.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 500
+[2KGIL: 91.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 11.00% 100.00%    1.64s     3.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 52.00%  52.00%    1.04s     1.04s   normpath (posixpath.py)
+[2K 20.00%  89.00%   0.570s     2.17s   abspath (posixpath.py)
+[2K 13.00%  14.00%   0.390s    0.410s   join (posixpath.py)
+[2K  2.00%   3.00%   0.120s    0.150s   isabs (posixpath.py)
+[2K  2.00%   2.00%   0.050s    0.050s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s     3.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 600
+[2KGIL: 85.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 10.00% 100.00%    1.74s     4.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 38.00%  38.00%    1.42s     1.42s   normpath (posixpath.py)
+[2K 23.00%  90.00%   0.800s     3.07s   abspath (posixpath.py)
+[2K 16.00%  19.00%   0.550s    0.600s   join (posixpath.py)
+[2K  6.00%  10.00%   0.180s    0.250s   isabs (posixpath.py)
+[2K  7.00%   7.00%   0.120s    0.120s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s     4.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 700
+[2KGIL: 84.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 12.00% 100.00%    1.86s     5.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 37.00%  37.00%    1.79s     1.79s   normpath (posixpath.py)
+[2K 28.00%  88.00%    1.08s     3.95s   abspath (posixpath.py)
+[2K 16.00%  17.00%   0.710s    0.770s   join (posixpath.py)
+[2K  5.00%   6.00%   0.230s    0.310s   isabs (posixpath.py)
+[2K  2.00%   2.00%   0.140s    0.140s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s     5.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 800
+[2KGIL: 90.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 48.00%  48.00%    2.27s     2.27s   normpath (posixpath.py)
+[2K 18.00% 100.00%    2.04s     6.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 16.00%  82.00%    1.24s     4.77s   abspath (posixpath.py)
+[2K 15.00%  15.00%   0.860s    0.920s   join (posixpath.py)
+[2K  3.00%   3.00%   0.260s    0.340s   isabs (posixpath.py)
+[2K  0.00%   0.00%   0.140s    0.140s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s     6.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 900
+[2KGIL: 82.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 34.00%  34.00%    2.61s     2.61s   normpath (posixpath.py)
+[2K 17.00% 100.00%    2.21s     7.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 29.00%  83.00%    1.53s     5.60s   abspath (posixpath.py)
+[2K  7.00%   8.00%   0.930s     1.00s   join (posixpath.py)
+[2K  9.00%  12.00%   0.350s    0.460s   isabs (posixpath.py)
+[2K  4.00%   4.00%   0.180s    0.180s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s     7.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1000
+[2KGIL: 92.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%    3.04s     3.04s   normpath (posixpath.py)
+[2K 13.00% 100.00%    2.34s     8.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 18.00%  87.00%    1.71s     6.47s   abspath (posixpath.py)
+[2K 12.00%  14.00%    1.05s     1.14s   join (posixpath.py)
+[2K  6.00%  12.00%   0.410s    0.580s   isabs (posixpath.py)
+[2K  8.00%   8.00%   0.260s    0.260s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s     8.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1100
+[2KGIL: 91.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 36.00%  36.00%    3.40s     3.40s   normpath (posixpath.py)
+[2K 22.00% 100.00%    2.56s     9.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 12.00%  78.00%    1.83s     7.25s   abspath (posixpath.py)
+[2K 17.00%  17.00%    1.22s     1.31s   join (posixpath.py)
+[2K  9.00%  13.00%   0.500s    0.710s   isabs (posixpath.py)
+[2K  4.00%   4.00%   0.300s    0.300s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s     9.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1200
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 42.00%  42.00%    3.82s     3.82s   normpath (posixpath.py)
+[2K 25.00% 100.00%    2.81s    10.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 20.00%  75.00%    2.03s     8.00s   abspath (posixpath.py)
+[2K  7.00%   9.00%    1.29s     1.40s   join (posixpath.py)
+[2K  3.00%   4.00%   0.530s    0.750s   isabs (posixpath.py)
+[2K  3.00%   3.00%   0.330s    0.330s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    10.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1300
+[2KGIL: 85.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 32.00%  32.00%    4.14s     4.14s   normpath (posixpath.py)
+[2K 20.00% 100.00%    3.01s    11.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 21.00%  80.00%    2.24s     8.80s   abspath (posixpath.py)
+[2K 15.00%  16.00%    1.44s     1.56s   join (posixpath.py)
+[2K  8.00%  11.00%   0.610s    0.860s   isabs (posixpath.py)
+[2K  4.00%   4.00%   0.370s    0.370s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    11.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1400
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 36.00%  36.00%    4.50s     4.50s   normpath (posixpath.py)
+[2K 16.00% 100.00%    3.17s    12.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 24.00%  84.00%    2.48s     9.64s   abspath (posixpath.py)
+[2K 15.00%  17.00%    1.59s     1.73s   join (posixpath.py)
+[2K  5.00%   7.00%   0.660s    0.930s   isabs (posixpath.py)
+[2K  4.00%   4.00%   0.410s    0.410s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    12.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1500
+[2KGIL: 93.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 34.00%  34.00%    4.84s     4.84s   normpath (posixpath.py)
+[2K 25.00% 100.00%    3.42s    13.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 22.00%  75.00%    2.70s    10.39s   abspath (posixpath.py)
+[2K  9.00%  12.00%    1.68s     1.85s   join (posixpath.py)
+[2K  5.00%   7.00%   0.710s     1.00s   isabs (posixpath.py)
+[2K  5.00%   5.00%   0.460s    0.460s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    13.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1600
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 46.00%  46.00%    5.30s     5.30s   normpath (posixpath.py)
+[2K 17.00% 100.00%    3.59s    14.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 20.00%  83.00%    2.90s    11.22s   abspath (posixpath.py)
+[2K 10.00%  11.00%    1.78s     1.96s   join (posixpath.py)
+[2K  3.00%   6.00%   0.740s     1.06s   isabs (posixpath.py)
+[2K  4.00%   4.00%   0.500s    0.500s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    14.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1700
+[2KGIL: 91.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 37.00%  37.00%    5.67s     5.67s   normpath (posixpath.py)
+[2K 19.00% 100.00%    3.78s    15.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 12.00%  81.00%    3.02s    12.03s   abspath (posixpath.py)
+[2K 23.00%  24.00%    2.01s     2.20s   join (posixpath.py)
+[2K  8.00%   8.00%   0.820s     1.14s   isabs (posixpath.py)
+[2K  1.00%   1.00%   0.510s    0.510s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    15.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1800
+[2KGIL: 83.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 32.00%  32.00%    5.99s     5.99s   normpath (posixpath.py)
+[2K 23.00% 100.00%    4.01s    16.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 26.00%  77.00%    3.28s    12.80s   abspath (posixpath.py)
+[2K 13.00%  14.00%    2.14s     2.34s   join (posixpath.py)
+[2K  5.00%   5.00%   0.870s     1.19s   isabs (posixpath.py)
+[2K  1.00%   1.00%   0.520s    0.520s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    16.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1900
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 37.00%  37.00%    6.36s     6.36s   normpath (posixpath.py)
+[2K 22.00% 100.00%    4.23s    17.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 22.00%  78.00%    3.50s    13.58s   abspath (posixpath.py)
+[2K 16.00%  16.00%    2.30s     2.50s   join (posixpath.py)
+[2K  3.00%   3.00%   0.900s     1.22s   isabs (posixpath.py)
+[2K  0.00%   0.00%   0.520s    0.520s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    17.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2000
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 47.00%  47.00%    6.83s     6.83s   normpath (posixpath.py)
+[2K 14.00% 100.00%    4.37s    18.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 22.00%  86.00%    3.72s    14.44s   abspath (posixpath.py)
+[2K 11.00%  12.00%    2.41s     2.62s   join (posixpath.py)
+[2K  4.00%   5.00%   0.940s     1.27s   isabs (posixpath.py)
+[2K  2.00%   2.00%   0.540s    0.540s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    18.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2100
+[2KGIL: 83.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 34.00%  34.00%    7.17s     7.17s   normpath (posixpath.py)
+[2K 15.00% 100.00%    4.52s    19.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 30.00%  85.00%    4.02s    15.29s   abspath (posixpath.py)
+[2K 14.00%  14.00%    2.55s     2.76s   join (posixpath.py)
+[2K  6.00%   7.00%    1.00s     1.34s   isabs (posixpath.py)
+[2K  1.00%   1.00%   0.550s    0.550s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    19.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2200
+[2KGIL: 85.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 42.00%  42.00%    7.59s     7.59s   normpath (posixpath.py)
+[2K 21.00% 100.00%    4.73s    20.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 23.00%  79.00%    4.25s    16.08s   abspath (posixpath.py)
+[2K  9.00%   9.00%    2.64s     2.85s   join (posixpath.py)
+[2K  3.00%   5.00%    1.03s     1.39s   isabs (posixpath.py)
+[2K  2.00%   2.00%   0.570s    0.570s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    20.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2300
+[2KGIL: 84.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 37.00%  37.00%    7.96s     7.96s   normpath (posixpath.py)
+[2K 23.00% 100.00%    4.96s    21.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 21.00%  77.00%    4.46s    16.85s   abspath (posixpath.py)
+[2K 15.00%  15.00%    2.79s     3.00s   join (posixpath.py)
+[2K  3.00%   4.00%    1.06s     1.43s   isabs (posixpath.py)
+[2K  1.00%   1.00%   0.580s    0.580s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    21.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2400
+[2KGIL: 84.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 38.00%  38.00%    8.34s     8.34s   normpath (posixpath.py)
+[2K 17.00% 100.00%    5.13s    22.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 24.00%  83.00%    4.70s    17.68s   abspath (posixpath.py)
+[2K 14.00%  15.00%    2.93s     3.15s   join (posixpath.py)
+[2K  4.00%   6.00%    1.10s     1.49s   isabs (posixpath.py)
+[2K  3.00%   3.00%   0.610s    0.610s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    22.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2500
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 37.00%  37.00%    8.71s     8.71s   normpath (posixpath.py)
+[2K 23.00% 100.00%    5.36s    23.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 21.00%  77.00%    4.91s    18.45s   abspath (posixpath.py)
+[2K 11.00%  13.00%    3.04s     3.28s   join (posixpath.py)
+[2K  6.00%   6.00%    1.16s     1.55s   isabs (posixpath.py)
+[2K  2.00%   2.00%   0.630s    0.630s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    23.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2600
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 45.00%  45.00%    9.16s     9.16s   normpath (posixpath.py)
+[2K 22.00% 100.00%    5.58s    24.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 19.00%  78.00%    5.10s    19.23s   abspath (posixpath.py)
+[2K  8.00%   9.00%    3.12s     3.37s   join (posixpath.py)
+[2K  4.00%   5.00%    1.20s     1.60s   isabs (posixpath.py)
+[2K  2.00%   2.00%   0.650s    0.650s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    24.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2700
+[2KGIL: 80.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 35.00%  35.00%    9.51s     9.51s   normpath (posixpath.py)
+[2K 14.00% 100.00%    5.72s    25.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 29.00%  86.00%    5.39s    20.09s   abspath (posixpath.py)
+[2K 16.00%  17.00%    3.28s     3.54s   join (posixpath.py)
+[2K  4.00%   5.00%    1.24s     1.65s   isabs (posixpath.py)
+[2K  2.00%   2.00%   0.670s    0.670s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    25.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2800
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 37.00%  37.00%    9.88s     9.88s   normpath (posixpath.py)
+[2K 20.00% 100.00%    5.92s    26.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 21.00%  80.00%    5.60s    20.89s   abspath (posixpath.py)
+[2K 13.00%  14.00%    3.41s     3.68s   join (posixpath.py)
+[2K  4.00%   8.00%    1.28s     1.73s   isabs (posixpath.py)
+[2K  5.00%   5.00%   0.720s    0.720s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    26.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2900
+[2KGIL: 83.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 38.00%  38.00%   10.26s    10.26s   normpath (posixpath.py)
+[2K 19.00% 100.00%    6.11s    27.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 29.00%  81.00%    5.89s    21.70s   abspath (posixpath.py)
+[2K 10.00%  10.00%    3.51s     3.78s   join (posixpath.py)
+[2K  3.00%   4.00%    1.31s     1.77s   isabs (posixpath.py)
+[2K  1.00%   1.00%   0.730s    0.730s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    27.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3000
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 46.00%  46.00%   10.72s    10.72s   normpath (posixpath.py)
+[2K 13.00% 100.00%    6.24s    28.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 20.00%  87.00%    6.09s    22.57s   abspath (posixpath.py)
+[2K 16.00%  17.00%    3.67s     3.95s   join (posixpath.py)
+[2K  3.00%   4.00%    1.34s     1.81s   isabs (posixpath.py)
+[2K  2.00%   2.00%   0.750s    0.750s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    28.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3100
+[2KGIL: 94.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 48.00%  48.00%   11.20s    11.20s   normpath (posixpath.py)
+[2K 19.00% 100.00%    6.43s    29.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 15.00%  81.00%    6.24s    23.38s   abspath (posixpath.py)
+[2K 12.00%  12.00%    3.79s     4.07s   join (posixpath.py)
+[2K  5.00%   6.00%    1.39s     1.87s   isabs (posixpath.py)
+[2K  1.00%   1.00%   0.760s    0.760s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    29.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3200
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 36.00%  36.00%   11.56s    11.56s   normpath (posixpath.py)
+[2K 17.00% 100.00%    6.60s    30.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 24.00%  83.00%    6.48s    24.21s   abspath (posixpath.py)
+[2K 13.00%  14.00%    3.92s     4.21s   join (posixpath.py)
+[2K  4.00%   9.00%    1.43s     1.96s   isabs (posixpath.py)
+[2K  6.00%   6.00%   0.820s    0.820s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    30.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3300
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 40.00%  40.00%   11.96s    11.96s   normpath (posixpath.py)
+[2K 22.00% 100.00%    6.82s    31.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 18.00%  78.00%    6.66s    24.99s   abspath (posixpath.py)
+[2K 12.00%  12.00%    4.04s     4.33s   join (posixpath.py)
+[2K  2.00%   8.00%    1.45s     2.04s   isabs (posixpath.py)
+[2K  6.00%   6.00%   0.880s    0.880s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    31.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3400
+[2KGIL: 90.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%   12.39s    12.39s   normpath (posixpath.py)
+[2K 12.00% 100.00%    6.94s    32.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 18.00%  88.00%    6.84s    25.87s   abspath (posixpath.py)
+[2K 14.00%  17.00%    4.18s     4.50s   join (posixpath.py)
+[2K  6.00%  10.00%    1.51s     2.14s   isabs (posixpath.py)
+[2K  7.00%   7.00%   0.950s    0.950s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    32.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3500
+[2KGIL: 83.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 36.00%  36.00%   12.75s    12.75s   normpath (posixpath.py)
+[2K 31.00%  89.00%    7.15s    26.76s   abspath (posixpath.py)
+[2K 11.00% 100.00%    7.05s    33.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 11.00%  13.00%    4.29s     4.63s   join (posixpath.py)
+[2K  8.00%   9.00%    1.59s     2.23s   isabs (posixpath.py)
+[2K  3.00%   3.00%   0.980s    0.980s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    33.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3600
+[2KGIL: 94.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 42.00%  42.00%   13.17s    13.17s   normpath (posixpath.py)
+[2K 19.00%  85.00%    7.34s    27.61s   abspath (posixpath.py)
+[2K 15.00% 100.00%    7.20s    34.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 17.00%  19.00%    4.46s     4.82s   join (posixpath.py)
+[2K  4.00%   5.00%    1.63s     2.28s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.01s     1.01s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    34.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3700
+[2KGIL: 90.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 44.00%  44.00%   13.61s    13.61s   normpath (posixpath.py)
+[2K 16.00%  83.00%    7.50s    28.44s   abspath (posixpath.py)
+[2K 17.00% 100.00%    7.37s    35.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 16.00%  17.00%    4.62s     4.99s   join (posixpath.py)
+[2K  5.00%   6.00%    1.68s     2.34s   isabs (posixpath.py)
+[2K  2.00%   2.00%    1.03s     1.03s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    35.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3800
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 35.00%  35.00%   13.96s    13.96s   normpath (posixpath.py)
+[2K 22.00%  82.00%    7.72s    29.26s   abspath (posixpath.py)
+[2K 18.00% 100.00%    7.55s    36.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 17.00%  18.00%    4.79s     5.17s   join (posixpath.py)
+[2K  6.00%   7.00%    1.74s     2.41s   isabs (posixpath.py)
+[2K  2.00%   2.00%    1.05s     1.05s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    36.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3900
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%   14.39s    14.39s   normpath (posixpath.py)
+[2K 17.00%  82.00%    7.89s    30.08s   abspath (posixpath.py)
+[2K 18.00% 100.00%    7.73s    37.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 14.00%  16.00%    4.93s     5.33s   join (posixpath.py)
+[2K  3.00%   6.00%    1.77s     2.47s   isabs (posixpath.py)
+[2K  5.00%   5.00%    1.10s     1.10s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    37.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4000
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 40.00%  40.00%   14.79s    14.79s   normpath (posixpath.py)
+[2K 22.00%  88.00%    8.11s    30.96s   abspath (posixpath.py)
+[2K 12.00% 100.00%    7.85s    38.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 16.00%  16.00%    5.09s     5.49s   join (posixpath.py)
+[2K  9.00%  10.00%    1.86s     2.57s   isabs (posixpath.py)
+[2K  1.00%   1.00%    1.11s     1.11s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    38.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4100
+[2KGIL: 90.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 37.00%  37.00%   15.16s    15.16s   normpath (posixpath.py)
+[2K 18.00%  82.00%    8.29s    31.78s   abspath (posixpath.py)
+[2K 18.00% 100.00%    8.03s    39.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 17.00%  18.00%    5.26s     5.67s   join (posixpath.py)
+[2K  6.00%   9.00%    1.92s     2.66s   isabs (posixpath.py)
+[2K  4.00%   4.00%    1.15s     1.15s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    39.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4200
+[2KGIL: 84.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 41.00%  41.00%   15.57s    15.57s   normpath (posixpath.py)
+[2K 27.00%  91.00%    8.56s    32.69s   abspath (posixpath.py)
+[2K  9.00% 100.00%    8.12s    40.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 12.00%  14.00%    5.38s     5.81s   join (posixpath.py)
+[2K  5.00%   9.00%    1.97s     2.75s   isabs (posixpath.py)
+[2K  6.00%   6.00%    1.21s     1.21s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    40.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4300
+[2KGIL: 89.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 39.00%  39.00%   15.96s    15.96s   normpath (posixpath.py)
+[2K 21.00%  77.00%    8.77s    33.46s   abspath (posixpath.py)
+[2K 23.00% 100.00%    8.35s    41.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 11.00%  13.00%    5.49s     5.94s   join (posixpath.py)
+[2K  3.00%   4.00%    2.00s     2.79s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.24s     1.24s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    41.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4400
+[2KGIL: 83.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 27.00%  27.00%   16.23s    16.23s   normpath (posixpath.py)
+[2K 25.00%  72.00%    9.02s    34.18s   abspath (posixpath.py)
+[2K 28.00% 100.00%    8.63s    42.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 10.00%  12.00%    5.59s     6.06s   join (posixpath.py)
+[2K  7.00%   8.00%    2.07s     2.87s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.27s     1.27s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    42.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4500
+[2KGIL: 83.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 28.00%  28.00%   16.51s    16.51s   normpath (posixpath.py)
+[2K 30.00%  83.00%    9.32s    35.01s   abspath (posixpath.py)
+[2K 17.00% 100.00%    8.80s    43.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 17.00%  18.00%    5.76s     6.24s   join (posixpath.py)
+[2K  5.00%   7.00%    2.12s     2.94s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.30s     1.30s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    43.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4600
+[2KGIL: 83.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 39.00%  39.00%   16.90s    16.90s   normpath (posixpath.py)
+[2K 26.00%  86.00%    9.58s    35.87s   abspath (posixpath.py)
+[2K 14.00% 100.00%    8.94s    44.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 14.00%  14.00%    5.90s     6.38s   join (posixpath.py)
+[2K  4.00%   7.00%    2.16s     3.01s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.33s     1.33s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    44.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4700
+[2KGIL: 83.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 37.00%  37.00%   17.27s    17.27s   normpath (posixpath.py)
+[2K 24.00%  81.00%    9.82s    36.68s   abspath (posixpath.py)
+[2K 19.00% 100.00%    9.13s    45.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K  8.00%  10.00%    5.98s     6.48s   join (posixpath.py)
+[2K  8.00%  10.00%    2.24s     3.11s   isabs (posixpath.py)
+[2K  4.00%   4.00%    1.37s     1.37s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    45.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4800
+[2KGIL: 84.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 41.00%  41.00%   17.68s    17.68s   normpath (posixpath.py)
+[2K 22.00%  86.00%   10.04s    37.54s   abspath (posixpath.py)
+[2K 14.00% 100.00%    9.27s    46.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 11.00%  14.00%    6.09s     6.62s   join (posixpath.py)
+[2K  6.00%   9.00%    2.30s     3.20s   isabs (posixpath.py)
+[2K  6.00%   6.00%    1.43s     1.43s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    46.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4900
+[2KGIL: 85.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 38.00%  38.00%   18.06s    18.06s   normpath (posixpath.py)
+[2K 23.00%  84.00%   10.27s    38.38s   abspath (posixpath.py)
+[2K 16.00% 100.00%    9.43s    47.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 17.00%  17.00%    6.26s     6.79s   join (posixpath.py)
+[2K  6.00%   6.00%    2.36s     3.26s   isabs (posixpath.py)
+[2K  0.00%   0.00%    1.43s     1.43s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    47.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5000
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 38.00%  38.00%   18.44s    18.44s   normpath (posixpath.py)
+[2K 28.00%  82.00%   10.55s    39.20s   abspath (posixpath.py)
+[2K 18.00% 100.00%    9.61s    48.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 11.00%  11.00%    6.37s     6.90s   join (posixpath.py)
+[2K  4.00%   5.00%    2.40s     3.31s   isabs (posixpath.py)
+[2K  1.00%   1.00%    1.44s     1.44s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    48.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5100
+[2KGIL: 92.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 38.00%  38.00%   18.82s    18.82s   normpath (posixpath.py)
+[2K 17.00%  75.00%   10.72s    39.95s   abspath (posixpath.py)
+[2K 25.00% 100.00%    9.86s    49.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 14.00%  15.00%    6.51s     7.05s   join (posixpath.py)
+[2K  5.00%   5.00%    2.45s     3.36s   isabs (posixpath.py)
+[2K  1.00%   1.00%    1.45s     1.45s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    49.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5200
+[2KGIL: 83.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 36.00%  36.00%   19.18s    19.18s   normpath (posixpath.py)
+[2K 30.00%  80.00%   11.02s    40.75s   abspath (posixpath.py)
+[2K 20.00% 100.00%   10.06s    50.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K  8.00%   8.00%    6.59s     7.13s   join (posixpath.py)
+[2K  4.00%   6.00%    2.49s     3.42s   isabs (posixpath.py)
+[2K  2.00%   2.00%    1.47s     1.47s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    50.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5300
+[2KGIL: 82.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 37.00%  37.00%   19.55s    19.55s   normpath (posixpath.py)
+[2K 27.00%  84.00%   11.29s    41.59s   abspath (posixpath.py)
+[2K 16.00% 100.00%   10.22s    51.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 11.00%  13.00%    6.70s     7.26s   join (posixpath.py)
+[2K  6.00%   7.00%    2.55s     3.49s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.50s     1.50s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    51.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5400
+[2KGIL: 85.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 38.00%  38.00%   19.93s    19.93s   normpath (posixpath.py)
+[2K 25.00%  84.00%   11.54s    42.43s   abspath (posixpath.py)
+[2K 16.00% 100.00%   10.38s    52.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 13.00%  14.00%    6.83s     7.40s   join (posixpath.py)
+[2K  5.00%   7.00%    2.60s     3.56s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.53s     1.53s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    52.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5500
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 39.00%  39.00%   20.32s    20.32s   normpath (posixpath.py)
+[2K 24.00%  87.00%   11.78s    43.30s   abspath (posixpath.py)
+[2K 13.00% 100.00%   10.51s    53.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 15.00%  16.00%    6.98s     7.56s   join (posixpath.py)
+[2K  7.00%   8.00%    2.67s     3.64s   isabs (posixpath.py)
+[2K  2.00%   2.00%    1.55s     1.55s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    53.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5600
+[2KGIL: 81.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 44.00%  44.00%   20.76s    20.76s   normpath (posixpath.py)
+[2K 29.00%  86.00%   12.07s    44.16s   abspath (posixpath.py)
+[2K 14.00% 100.00%   10.65s    54.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K  7.00%   8.00%    7.05s     7.64s   join (posixpath.py)
+[2K  4.00%   5.00%    2.71s     3.69s   isabs (posixpath.py)
+[2K  2.00%   2.00%    1.57s     1.57s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    54.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5700
+[2KGIL: 89.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%   21.19s    21.19s   normpath (posixpath.py)
+[2K 21.00%  84.00%   12.28s    45.00s   abspath (posixpath.py)
+[2K 16.00% 100.00%   10.81s    55.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 15.00%  16.00%    7.20s     7.80s   join (posixpath.py)
+[2K  4.00%   4.00%    2.75s     3.73s   isabs (posixpath.py)
+[2K  1.00%   1.00%    1.58s     1.58s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    55.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5800
+[2KGIL: 93.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 42.00%  42.00%   21.61s    21.61s   normpath (posixpath.py)
+[2K 15.00%  85.00%   12.43s    45.85s   abspath (posixpath.py)
+[2K 15.00% 100.00%   10.96s    56.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 15.00%  17.00%    7.35s     7.97s   join (posixpath.py)
+[2K  8.00%  11.00%    2.83s     3.84s   isabs (posixpath.py)
+[2K  5.00%   5.00%    1.63s     1.63s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    56.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5900
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%   22.04s    22.04s   normpath (posixpath.py)
+[2K 22.00%  81.00%   12.65s    46.66s   abspath (posixpath.py)
+[2K 19.00% 100.00%   11.15s    57.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 12.00%  14.00%    7.47s     8.11s   join (posixpath.py)
+[2K  1.00%   2.00%    2.84s     3.86s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.66s     1.66s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    57.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6000
+[2KGIL: 91.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 45.00%  45.00%   22.49s    22.49s   normpath (posixpath.py)
+[2K 16.00%  79.00%   12.81s    47.45s   abspath (posixpath.py)
+[2K 21.00% 100.00%   11.36s    58.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 13.00%  13.00%    7.60s     8.24s   join (posixpath.py)
+[2K  4.00%   5.00%    2.88s     3.91s   isabs (posixpath.py)
+[2K  1.00%   1.00%    1.67s     1.67s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    58.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6100
+[2KGIL: 85.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 27.00%  27.00%   22.76s    22.76s   normpath (posixpath.py)
+[2K 21.00%  77.00%   13.02s    48.22s   abspath (posixpath.py)
+[2K 23.00% 100.00%   11.59s    59.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 17.00%  17.00%    7.77s     8.41s   join (posixpath.py)
+[2K 11.00%  12.00%    2.99s     4.03s   isabs (posixpath.py)
+[2K  1.00%   1.00%    1.68s     1.68s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    59.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6200
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 23.00%  23.00%   22.99s    22.99s   normpath (posixpath.py)
+[2K 25.00%  71.00%   13.27s    48.93s   abspath (posixpath.py)
+[2K 29.00% 100.00%   11.88s    60.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 16.00%  16.00%    7.93s     8.57s   join (posixpath.py)
+[2K  4.00%   7.00%    3.03s     4.10s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.71s     1.71s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    60.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6300
+[2KGIL: 91.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 40.00%  40.00%   23.39s    23.39s   normpath (posixpath.py)
+[2K 21.00%  84.00%   13.48s    49.77s   abspath (posixpath.py)
+[2K 16.00% 100.00%   12.04s    61.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 16.00%  16.00%    8.09s     8.73s   join (posixpath.py)
+[2K  4.00%   7.00%    3.07s     4.17s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.74s     1.74s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    61.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6400
+[2KGIL: 84.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 38.00%  38.00%   23.77s    23.77s   normpath (posixpath.py)
+[2K 25.00%  82.00%   13.73s    50.59s   abspath (posixpath.py)
+[2K 18.00% 100.00%   12.22s    62.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 11.00%  12.00%    8.20s     8.85s   join (posixpath.py)
+[2K  5.00%   7.00%    3.12s     4.24s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.77s     1.77s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    62.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6500
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 36.00%  36.00%   24.13s    24.13s   normpath (posixpath.py)
+[2K 19.00%  75.00%   13.92s    51.34s   abspath (posixpath.py)
+[2K 25.00% 100.00%   12.47s    63.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K  8.00%  10.00%    8.28s     8.95s   join (posixpath.py)
+[2K  9.00%  10.00%    3.21s     4.34s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.80s     1.80s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    63.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6600
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 30.00%  30.00%   24.43s    24.43s   normpath (posixpath.py)
+[2K 22.00%  77.00%   14.14s    52.11s   abspath (posixpath.py)
+[2K 23.00% 100.00%   12.70s    64.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 11.00%  13.00%    8.39s     9.08s   join (posixpath.py)
+[2K  9.00%  12.00%    3.30s     4.46s   isabs (posixpath.py)
+[2K  5.00%   5.00%    1.85s     1.85s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    64.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6700
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 36.00%  36.00%   24.79s    24.79s   normpath (posixpath.py)
+[2K 21.00%  83.00%   14.35s    52.94s   abspath (posixpath.py)
+[2K 17.00% 100.00%   12.87s    65.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 13.00%  14.00%    8.52s     9.22s   join (posixpath.py)
+[2K  9.00%  12.00%    3.39s     4.58s   isabs (posixpath.py)
+[2K  4.00%   4.00%    1.89s     1.89s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    65.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6800
+[2KGIL: 89.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 26.00%  26.00%   25.05s    25.05s   normpath (posixpath.py)
+[2K 23.00%  73.00%   14.58s    53.67s   abspath (posixpath.py)
+[2K 27.00% 100.00%   13.14s    66.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 10.00%  11.00%    8.62s     9.33s   join (posixpath.py)
+[2K 11.00%  13.00%    3.50s     4.71s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.92s     1.92s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    66.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6900
+[2KGIL: 92.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 36.00%  36.00%   25.41s    25.41s   normpath (posixpath.py)
+[2K 20.00%  84.00%   14.78s    54.51s   abspath (posixpath.py)
+[2K 16.00% 100.00%   13.30s    67.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 13.00%  16.00%    8.75s     9.49s   join (posixpath.py)
+[2K  9.00%  12.00%    3.59s     4.83s   isabs (posixpath.py)
+[2K  6.00%   6.00%    1.98s     1.98s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    67.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7000
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 37.00%  37.00%   25.78s    25.78s   normpath (posixpath.py)
+[2K 21.00%  80.00%   14.99s    55.31s   abspath (posixpath.py)
+[2K 20.00% 100.00%   13.50s    68.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 13.00%  15.00%    8.88s     9.64s   join (posixpath.py)
+[2K  6.00%   7.00%    3.65s     4.90s   isabs (posixpath.py)
+[2K  3.00%   3.00%    2.01s     2.01s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    68.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7100
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 42.00%  42.00%   26.20s    26.20s   normpath (posixpath.py)
+[2K 22.00%  83.00%   15.21s    56.14s   abspath (posixpath.py)
+[2K 17.00% 100.00%   13.67s    69.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 14.00%  15.00%    9.02s     9.79s   join (posixpath.py)
+[2K  3.00%   4.00%    3.68s     4.94s   isabs (posixpath.py)
+[2K  2.00%   2.00%    2.03s     2.03s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    69.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7200
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 33.00%  33.00%   26.53s    26.53s   normpath (posixpath.py)
+[2K 23.00%  80.00%   15.44s    56.94s   abspath (posixpath.py)
+[2K 20.00% 100.00%   13.87s    70.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 12.00%  14.00%    9.14s     9.93s   join (posixpath.py)
+[2K  7.00%  10.00%    3.75s     5.04s   isabs (posixpath.py)
+[2K  5.00%   5.00%    2.08s     2.08s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    70.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7300
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 30.00%  30.00%   26.83s    26.83s   normpath (posixpath.py)
+[2K 20.00%  78.00%   15.64s    57.72s   abspath (posixpath.py)
+[2K 22.00% 100.00%   14.09s    71.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 15.00%  16.00%    9.29s    10.09s   join (posixpath.py)
+[2K  8.00%  12.00%    3.83s     5.16s   isabs (posixpath.py)
+[2K  5.00%   5.00%    2.13s     2.13s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    71.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7400
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 39.00%  39.00%   27.22s    27.22s   normpath (posixpath.py)
+[2K 25.00%  83.00%   15.89s    58.55s   abspath (posixpath.py)
+[2K 17.00% 100.00%   14.26s    72.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 13.00%  14.00%    9.42s    10.23s   join (posixpath.py)
+[2K  5.00%   5.00%    3.88s     5.21s   isabs (posixpath.py)
+[2K  1.00%   1.00%    2.14s     2.14s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    72.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7500
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%   27.65s    27.65s   normpath (posixpath.py)
+[2K 20.00%  89.00%   16.09s    59.44s   abspath (posixpath.py)
+[2K 11.00% 100.00%   14.37s    73.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 15.00%  15.00%    9.57s    10.38s   join (posixpath.py)
+[2K  8.00%  11.00%    3.96s     5.32s   isabs (posixpath.py)
+[2K  3.00%   3.00%    2.17s     2.17s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    73.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7600
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 42.00%  42.00%   28.07s    28.07s   normpath (posixpath.py)
+[2K 21.00%  80.00%   16.30s    60.24s   abspath (posixpath.py)
+[2K 20.00% 100.00%   14.57s    74.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 12.00%  13.00%    9.69s    10.51s   join (posixpath.py)
+[2K  3.00%   4.00%    3.99s     5.36s   isabs (posixpath.py)
+[2K  2.00%   2.00%    2.19s     2.19s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    74.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7700
+[2KGIL: 92.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 45.00%  45.00%   28.52s    28.52s   normpath (posixpath.py)
+[2K 17.00%  76.00%   16.47s    61.00s   abspath (posixpath.py)
+[2K 24.00% 100.00%   14.81s    75.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 11.00%  12.00%    9.80s    10.63s   join (posixpath.py)
+[2K  1.00%   2.00%    4.00s     5.38s   isabs (posixpath.py)
+[2K  2.00%   2.00%    2.21s     2.21s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    75.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7800
+[2KGIL: 89.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 33.00%  33.00%   28.85s    28.85s   normpath (posixpath.py)
+[2K 17.00%  76.00%   16.64s    61.76s   abspath (posixpath.py)
+[2K 24.00% 100.00%   15.05s    76.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 19.00%  20.00%    9.99s    10.83s   join (posixpath.py)
+[2K  6.00%   6.00%    4.06s     5.44s   isabs (posixpath.py)
+[2K  1.00%   1.00%    2.22s     2.22s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    76.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7900
+[2KGIL: 89.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%   29.28s    29.28s   normpath (posixpath.py)
+[2K 19.00%  80.00%   16.83s    62.56s   abspath (posixpath.py)
+[2K 20.00% 100.00%   15.25s    77.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 11.00%  11.00%   10.10s    10.94s   join (posixpath.py)
+[2K  6.00%   7.00%    4.12s     5.51s   isabs (posixpath.py)
+[2K  1.00%   1.00%    2.23s     2.23s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    77.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8000
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 38.00%  38.00%   29.66s    29.66s   normpath (posixpath.py)
+[2K 19.00%  83.00%   17.02s    63.39s   abspath (posixpath.py)
+[2K 17.00% 100.00%   15.42s    78.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 16.00%  18.00%   10.26s    11.12s   join (posixpath.py)
+[2K  4.00%   8.00%    4.16s     5.59s   isabs (posixpath.py)
+[2K  6.00%   6.00%    2.29s     2.29s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    78.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8100
+[2KGIL: 90.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 35.00%  35.00%   30.01s    30.01s   normpath (posixpath.py)
+[2K 25.00%  85.00%   17.27s    64.24s   abspath (posixpath.py)
+[2K 15.00% 100.00%   15.57s    79.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 18.00%  19.00%   10.44s    11.31s   join (posixpath.py)
+[2K  5.00%   6.00%    4.21s     5.65s   isabs (posixpath.py)
+[2K  2.00%   2.00%    2.31s     2.31s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    79.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8200
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 40.00%  40.00%   30.41s    30.41s   normpath (posixpath.py)
+[2K 17.00%  81.00%   17.44s    65.05s   abspath (posixpath.py)
+[2K 19.00% 100.00%   15.76s    80.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 19.00%  21.00%   10.63s    11.52s   join (posixpath.py)
+[2K  2.00%   3.00%    4.23s     5.68s   isabs (posixpath.py)
+[2K  3.00%   3.00%    2.34s     2.34s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    80.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8300
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 26.00%  26.00%   30.67s    30.67s   normpath (posixpath.py)
+[2K 24.00%  78.00%   17.68s    65.83s   abspath (posixpath.py)
+[2K 22.00% 100.00%   15.98s    81.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 16.00%  18.00%   10.79s    11.70s   join (posixpath.py)
+[2K  9.00%  10.00%    4.32s     5.78s   isabs (posixpath.py)
+[2K  3.00%   3.00%    2.37s     2.37s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    81.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8400
+[2KGIL: 84.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%   31.10s    31.10s   normpath (posixpath.py)
+[2K 24.00%  82.00%   17.92s    66.65s   abspath (posixpath.py)
+[2K 18.00% 100.00%   16.16s    82.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 12.00%  13.00%   10.91s    11.83s   join (posixpath.py)
+[2K  2.00%   2.00%    4.34s     5.80s   isabs (posixpath.py)
+[2K  1.00%   1.00%    2.38s     2.38s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    82.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8500
+[2KGIL: 90.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 39.00%  39.00%   31.49s    31.49s   normpath (posixpath.py)
+[2K 24.00%  89.00%   18.16s    67.54s   abspath (posixpath.py)
+[2K 11.00% 100.00%   16.27s    83.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 17.00%  18.00%   11.08s    12.01s   join (posixpath.py)
+[2K  3.00%   8.00%    4.37s     5.88s   isabs (posixpath.py)
+[2K  6.00%   6.00%    2.44s     2.44s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    83.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8600
+[2KGIL: 81.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 42.00%  42.00%   31.91s    31.91s   normpath (posixpath.py)
+[2K 31.00%  81.00%   18.47s    68.35s   abspath (posixpath.py)
+[2K 19.00% 100.00%   16.46s    84.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K  7.00%   7.00%   11.15s    12.08s   join (posixpath.py)
+[2K  1.00%   1.00%    4.38s     5.89s   isabs (posixpath.py)
+[2K  0.00%   0.00%    2.44s     2.44s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    84.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8700
+[2KGIL: 92.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%   32.34s    32.34s   normpath (posixpath.py)
+[2K 16.00%  81.00%   18.63s    69.16s   abspath (posixpath.py)
+[2K 19.00% 100.00%   16.65s    85.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 11.00%  15.00%   11.26s    12.23s   join (posixpath.py)
+[2K  6.00%   7.00%    4.44s     5.96s   isabs (posixpath.py)
+[2K  5.00%   5.00%    2.49s     2.49s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    85.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8800
+[2KGIL: 84.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 32.00%  32.00%   32.66s    32.66s   normpath (posixpath.py)
+[2K 22.00%  76.00%   18.85s    69.92s   abspath (posixpath.py)
+[2K 24.00% 100.00%   16.89s    86.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 12.00%  16.00%   11.38s    12.39s   join (posixpath.py)
+[2K  4.00%   6.00%    4.48s     6.02s   isabs (posixpath.py)
+[2K  6.00%   6.00%    2.55s     2.55s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    86.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8900
+[2KGIL: 82.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 34.00%  34.00%   33.00s    33.00s   normpath (posixpath.py)
+[2K 26.00%  80.00%   19.11s    70.72s   abspath (posixpath.py)
+[2K 20.00% 100.00%   17.09s    87.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 11.00%  11.00%   11.49s    12.50s   join (posixpath.py)
+[2K  7.00%   9.00%    4.55s     6.11s   isabs (posixpath.py)
+[2K  2.00%   2.00%    2.57s     2.57s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    87.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9000
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 38.00%  38.00%   33.38s    33.38s   normpath (posixpath.py)
+[2K 28.00%  84.00%   19.39s    71.56s   abspath (posixpath.py)
+[2K 16.00% 100.00%   17.25s    88.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K  7.00%  10.00%   11.56s    12.60s   join (posixpath.py)
+[2K  4.00%   8.00%    4.59s     6.19s   isabs (posixpath.py)
+[2K  7.00%   7.00%    2.64s     2.64s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    88.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9100
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 36.00%  36.00%   33.74s    33.74s   normpath (posixpath.py)
+[2K 26.00%  85.00%   19.65s    72.41s   abspath (posixpath.py)
+[2K 15.00% 100.00%   17.40s    89.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 11.00%  12.00%   11.67s    12.72s   join (posixpath.py)
+[2K  8.00%  11.00%    4.67s     6.30s   isabs (posixpath.py)
+[2K  4.00%   4.00%    2.68s     2.68s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    89.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9200
+[2KGIL: 84.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 31.00%  31.00%   34.05s    34.05s   normpath (posixpath.py)
+[2K 27.00%  83.00%   19.92s    73.24s   abspath (posixpath.py)
+[2K 17.00% 100.00%   17.57s    90.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 17.00%  19.00%   11.84s    12.91s   join (posixpath.py)
+[2K  4.00%   6.00%    4.71s     6.36s   isabs (posixpath.py)
+[2K  4.00%   4.00%    2.72s     2.72s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    90.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9300
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 39.00%  39.00%   34.44s    34.44s   normpath (posixpath.py)
+[2K 22.00%  84.00%   20.14s    74.08s   abspath (posixpath.py)
+[2K 16.00% 100.00%   17.73s    91.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 14.00%  16.00%   11.98s    13.07s   join (posixpath.py)
+[2K  5.00%   7.00%    4.76s     6.43s   isabs (posixpath.py)
+[2K  4.00%   4.00%    2.76s     2.76s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    91.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9400
+[2KGIL: 91.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 44.00%  44.00%   34.88s    34.88s   normpath (posixpath.py)
+[2K 13.00%  85.00%   20.27s    74.93s   abspath (posixpath.py)
+[2K 15.00% 100.00%   17.88s    92.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 18.00%  21.00%   12.16s    13.28s   join (posixpath.py)
+[2K  6.00%   7.00%    4.82s     6.50s   isabs (posixpath.py)
+[2K  4.00%   4.00%    2.80s     2.80s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    92.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9500
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 38.00%  38.00%   35.26s    35.26s   normpath (posixpath.py)
+[2K 25.00%  83.00%   20.52s    75.76s   abspath (posixpath.py)
+[2K 17.00% 100.00%   18.05s    93.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 15.00%  15.00%   12.31s    13.43s   join (posixpath.py)
+[2K  4.00%   5.00%    4.86s     6.55s   isabs (posixpath.py)
+[2K  1.00%   1.00%    2.81s     2.81s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    93.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9600
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 30.00%  30.00%   35.56s    35.56s   normpath (posixpath.py)
+[2K 22.00%  74.00%   20.74s    76.50s   abspath (posixpath.py)
+[2K 26.00% 100.00%   18.31s    94.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 10.00%  11.00%   12.41s    13.54s   join (posixpath.py)
+[2K  8.00%  11.00%    4.94s     6.66s   isabs (posixpath.py)
+[2K  4.00%   4.00%    2.85s     2.85s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    94.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9700
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 37.00%  37.00%   35.93s    35.93s   normpath (posixpath.py)
+[2K 23.00%  87.00%   20.97s    77.37s   abspath (posixpath.py)
+[2K 13.00% 100.00%   18.44s    95.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 19.00%  22.00%   12.60s    13.76s   join (posixpath.py)
+[2K  5.00%   5.00%    4.99s     6.71s   isabs (posixpath.py)
+[2K  3.00%   3.00%    2.88s     2.88s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    95.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9800
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 42.00%  42.00%   36.35s    36.35s   normpath (posixpath.py)
+[2K 17.00%  79.00%   21.14s    78.16s   abspath (posixpath.py)
+[2K 21.00% 100.00%   18.65s    96.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K  9.00%  11.00%   12.69s    13.87s   join (posixpath.py)
+[2K  6.00%   9.00%    5.05s     6.80s   isabs (posixpath.py)
+[2K  5.00%   5.00%    2.93s     2.93s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    96.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9900
+[2KGIL: 85.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 34.00%  34.00%   36.69s    36.69s   normpath (posixpath.py)
+[2K 21.00%  80.00%   21.35s    78.96s   abspath (posixpath.py)
+[2K 20.00% 100.00%   18.85s    97.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 18.00%  18.00%   12.87s    14.05s   join (posixpath.py)
+[2K  5.00%   7.00%    5.10s     6.87s   isabs (posixpath.py)
+[2K  2.00%   2.00%    2.95s     2.95s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    97.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10000
+[2KGIL: 91.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%   37.12s    37.12s   normpath (posixpath.py)
+[2K 22.00%  86.00%   21.57s    79.82s   abspath (posixpath.py)
+[2K 14.00% 100.00%   18.99s    98.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K  8.00%   8.00%   12.95s    14.13s   join (posixpath.py)
+[2K  8.00%  13.00%    5.18s     7.00s   isabs (posixpath.py)
+[2K  5.00%   5.00%    3.00s     3.00s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    98.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10100
+[2KGIL: 92.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 41.00%  41.00%   37.53s    37.53s   normpath (posixpath.py)
+[2K 21.00%  84.00%   21.78s    80.66s   abspath (posixpath.py)
+[2K 16.00% 100.00%   19.15s    99.81s   build_sample_map_iter (dlio_benchmark/utils
+[2K 14.00%  16.00%   13.09s    14.29s   join (posixpath.py)
+[2K  6.00%   6.00%    5.24s     7.06s   isabs (posixpath.py)
+[2K  2.00%   2.00%    3.02s     3.02s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    99.93s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10200
+[2KGIL: 82.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 35.00%  35.00%   37.88s    37.88s   normpath (posixpath.py)
+[2K 30.00%  84.00%   22.08s    81.50s   abspath (posixpath.py)
+[2K 16.00% 100.00%   19.31s    100.8s   build_sample_map_iter (dlio_benchmark/utils
+[2K 11.00%  12.00%   13.20s    14.41s   join (posixpath.py)
+[2K  5.00%   7.00%    5.29s     7.13s   isabs (posixpath.py)
+[2K  3.00%   3.00%    3.05s     3.05s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    100.9s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10300
+[2KGIL: 89.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 38.00%  38.00%   38.26s    38.26s   normpath (posixpath.py)
+[2K 20.00%  80.00%   22.28s    82.30s   abspath (posixpath.py)
+[2K 20.00% 100.00%   19.51s    101.8s   build_sample_map_iter (dlio_benchmark/utils
+[2K 11.00%  14.00%   13.31s    14.55s   join (posixpath.py)
+[2K  4.00%   8.00%    5.33s     7.21s   isabs (posixpath.py)
+[2K  7.00%   7.00%    3.12s     3.12s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    101.9s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10400
+[2KGIL: 89.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 31.00%  31.00%   38.57s    38.57s   normpath (posixpath.py)
+[2K 18.00%  76.00%   22.46s    83.06s   abspath (posixpath.py)
+[2K 24.00% 100.00%   19.75s    102.8s   build_sample_map_iter (dlio_benchmark/utils
+[2K 17.00%  19.00%   13.48s    14.74s   join (posixpath.py)
+[2K  7.00%   8.00%    5.40s     7.29s   isabs (posixpath.py)
+[2K  3.00%   3.00%    3.15s     3.15s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    102.9s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10500
+[2KGIL: 83.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 40.00%  40.00%   38.97s    38.97s   normpath (posixpath.py)
+[2K 28.00%  86.00%   22.74s    83.92s   abspath (posixpath.py)
+[2K 14.00% 100.00%   19.89s    103.8s   build_sample_map_iter (dlio_benchmark/utils
+[2K 11.00%  11.00%   13.59s    14.85s   join (posixpath.py)
+[2K  5.00%   7.00%    5.45s     7.36s   isabs (posixpath.py)
+[2K  2.00%   2.00%    3.17s     3.17s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    103.9s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10600
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 35.00%  35.00%   39.32s    39.32s   normpath (posixpath.py)
+[2K 25.00%  87.00%   22.99s    84.79s   abspath (posixpath.py)
+[2K 13.00% 100.00%   20.02s    104.8s   build_sample_map_iter (dlio_benchmark/utils
+[2K 21.00%  22.00%   13.80s    15.07s   join (posixpath.py)
+[2K  3.00%   5.00%    5.48s     7.41s   isabs (posixpath.py)
+[2K  3.00%   3.00%    3.20s     3.20s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    104.9s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10700
+[2KGIL: 85.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 35.00%  35.00%   39.67s    39.67s   normpath (posixpath.py)
+[2K 25.00%  74.00%   23.24s    85.53s   abspath (posixpath.py)
+[2K 26.00% 100.00%   20.28s    105.8s   build_sample_map_iter (dlio_benchmark/utils
+[2K 12.00%  12.00%   13.92s    15.19s   join (posixpath.py)
+[2K  1.00%   2.00%    5.49s     7.43s   isabs (posixpath.py)
+[2K  1.00%   1.00%    3.21s     3.21s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    105.9s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10800
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 26.00%  26.00%   39.93s    39.93s   normpath (posixpath.py)
+[2K 25.00%  81.00%   23.49s    86.34s   abspath (posixpath.py)
+[2K 19.00% 100.00%   20.47s    106.8s   build_sample_map_iter (dlio_benchmark/utils
+[2K 17.00%  21.00%   14.09s    15.40s   join (posixpath.py)
+[2K  6.00%   9.00%    5.55s     7.52s   isabs (posixpath.py)
+[2K  7.00%   7.00%    3.28s     3.28s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    106.9s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10900
+[2KGIL: 90.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 31.00%  31.00%   40.24s    40.24s   normpath (posixpath.py)
+[2K 17.00%  81.00%   23.66s    87.15s   abspath (posixpath.py)
+[2K 19.00% 100.00%   20.66s    107.8s   build_sample_map_iter (dlio_benchmark/utils
+[2K 21.00%  23.00%   14.30s    15.63s   join (posixpath.py)
+[2K  6.00%  10.00%    5.61s     7.62s   isabs (posixpath.py)
+[2K  6.00%   6.00%    3.34s     3.34s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    107.9s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 11000
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 28.00%  28.00%   40.52s    40.52s   normpath (posixpath.py)
+[2K 28.00%  84.00%   23.94s    87.99s   abspath (posixpath.py)
+[2K 16.00% 100.00%   20.82s    108.8s   build_sample_map_iter (dlio_benchmark/utils
+[2K 18.00%  20.00%   14.48s    15.83s   join (posixpath.py)
+[2K  5.00%   8.00%    5.66s     7.70s   isabs (posixpath.py)
+[2K  5.00%   5.00%    3.39s     3.39s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00% 100.00%   0.000s    108.9s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 11100
+[2KGIL: 97.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 12.00%  12.00%   40.64s    40.64s   normpath (posixpath.py)
+[2K  5.00%  23.00%   23.99s    88.22s   abspath (posixpath.py)
+[2K  4.00%  27.00%   20.86s    109.1s   build_sample_map_iter (dlio_benchmark/utils
+[2K  3.00%   3.00%   14.51s    15.86s   join (posixpath.py)
+[2K  1.00%   3.00%    5.67s     7.73s   isabs (posixpath.py)
+[2K  2.00%   2.00%    3.41s     3.41s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00%  27.00%   0.000s    109.2s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 11200
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   40.64s    40.64s   normpath (posixpath.py)
+[2K  0.00%   0.00%   23.99s    88.22s   abspath (posixpath.py)
+[2K  0.00%   0.00%   20.86s    109.1s   build_sample_map_iter (dlio_benchmark/utils
+[2K  0.00%   0.00%   14.51s    15.86s   join (posixpath.py)
+[2K  0.00%   0.00%    5.67s     7.73s   isabs (posixpath.py)
+[2K  0.00%   0.00%    3.41s     3.41s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.050s    0.050s   random_uniform_int (tensorflow/python/ops/g
+[2K  0.00%   0.00%   0.030s    0.040s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.020s   convert_to_eager_tensor (tensorflow/python/
+[2K  0.00%   0.00%   0.010s    0.010s   ensure_initialized (tensorflow/python/eager
+[2K  0.00%   0.00%   0.010s    0.010s   ismodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   _resolve_with_default (omegaconf/basecontai
+[2K  0.00%   0.00%   0.000s    0.030s   findsource (inspect.py)
+[2K  0.00%   0.00%   0.000s    109.2s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    0.020s   _constant_eager_impl (tensorflow/python/fra
+[2K  0.00%   0.00%   0.000s    0.020s   wrapped (tensorflow/python/profiler/trace.p
+[2K
+[2KPress Control-C to quit, or ? for help.
+
+process 9739 ended

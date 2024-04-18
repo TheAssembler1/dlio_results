@@ -1,0 +1,2649 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10
+[2KGIL: 70.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 40.00%  70.00%   0.040s    0.070s   abspath (posixpath.py)
+[2K 30.00% 100.00%   0.030s    0.100s   get_global_map_index (dlio_benchmark/utils/
+[2K 20.00%  20.00%   0.020s    0.020s   normpath (posixpath.py)
+[2K 10.00%  10.00%   0.010s    0.010s   isabs (posixpath.py)
+[2K  0.00% 100.00%   0.000s    0.100s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    0.100s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    0.100s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    0.100s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    0.100s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    0.100s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    0.100s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    0.100s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    0.100s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    0.100s   run (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    0.100s   run_job (hydra/core/utils.py)
+[2K  0.00% 100.00%   0.000s    0.100s   _run_hydra (hydra/_internal/utils.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 100
+[2KGIL: 94.44%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.33%  43.33%   0.410s    0.410s   normpath (posixpath.py)
+[2K 15.56%  84.44%   0.180s    0.830s   abspath (posixpath.py)
+[2K 15.56% 100.00%   0.170s     1.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 13.33%  14.44%   0.120s    0.130s   join (posixpath.py)
+[2K 10.00%  11.11%   0.100s    0.110s   isabs (posixpath.py)
+[2K  2.22%   2.22%   0.020s    0.020s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s     1.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     1.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     1.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     1.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     1.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s     1.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     1.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s     1.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s     1.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     1.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 200
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 46.00%  46.00%   0.870s    0.870s   normpath (posixpath.py)
+[2K 26.00%  88.00%   0.440s     1.71s   abspath (posixpath.py)
+[2K 12.00% 100.00%   0.290s     2.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  9.00%   9.00%   0.210s    0.220s   join (posixpath.py)
+[2K  3.00%   7.00%   0.130s    0.180s   isabs (posixpath.py)
+[2K  4.00%   4.00%   0.060s    0.060s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s     2.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     2.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     2.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     2.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     2.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s     2.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     2.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s     2.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s     2.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     2.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 300
+[2KGIL: 91.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 46.00%  46.00%    1.33s     1.33s   normpath (posixpath.py)
+[2K 18.00%  91.00%   0.620s     2.62s   abspath (posixpath.py)
+[2K 20.00%  21.00%   0.410s    0.430s   join (posixpath.py)
+[2K  9.00% 100.00%   0.380s     3.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  4.00%   6.00%   0.170s    0.240s   isabs (posixpath.py)
+[2K  3.00%   3.00%   0.090s    0.090s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s     3.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     3.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     3.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     3.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     3.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s     3.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     3.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s     3.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s     3.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     3.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 400
+[2KGIL: 83.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 38.00%  38.00%    1.71s     1.71s   normpath (posixpath.py)
+[2K 23.00%  84.00%   0.850s     3.46s   abspath (posixpath.py)
+[2K 16.00%  18.00%   0.570s    0.610s   join (posixpath.py)
+[2K 16.00% 100.00%   0.540s     4.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  3.00%   5.00%   0.200s    0.290s   isabs (posixpath.py)
+[2K  4.00%   4.00%   0.130s    0.130s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s     4.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     4.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     4.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     4.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     4.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s     4.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     4.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s     4.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s     4.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     4.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 500
+[2KGIL: 92.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 40.00%  40.00%    2.11s     2.11s   normpath (posixpath.py)
+[2K 23.00%  89.00%    1.08s     4.35s   abspath (posixpath.py)
+[2K 11.00%  13.00%   0.680s    0.740s   join (posixpath.py)
+[2K 11.00% 100.00%   0.650s     5.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 11.00%  13.00%   0.310s    0.420s   isabs (posixpath.py)
+[2K  4.00%   4.00%   0.170s    0.170s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s     5.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     5.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     5.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     5.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     5.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s     5.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     5.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s     5.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s     5.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     5.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 600
+[2KGIL: 83.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 40.00%  40.00%    2.51s     2.51s   normpath (posixpath.py)
+[2K 29.00%  88.00%    1.37s     5.23s   abspath (posixpath.py)
+[2K 14.00%  14.00%   0.820s    0.880s   join (posixpath.py)
+[2K 12.00% 100.00%   0.770s     6.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  4.00%   5.00%   0.350s    0.470s   isabs (posixpath.py)
+[2K  1.00%   1.00%   0.180s    0.180s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s     6.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     6.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     6.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     6.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     6.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s     6.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     6.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s     6.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s     6.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     6.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 700
+[2KGIL: 80.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 32.00%  32.00%    2.83s     2.83s   normpath (posixpath.py)
+[2K 33.00%  86.00%    1.70s     6.09s   abspath (posixpath.py)
+[2K 12.00%  12.00%   0.940s     1.00s   join (posixpath.py)
+[2K 14.00% 100.00%   0.910s     7.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  6.00%   9.00%   0.410s    0.560s   isabs (posixpath.py)
+[2K  3.00%   3.00%   0.210s    0.210s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s     7.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     7.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     7.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     7.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     7.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s     7.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     7.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s     7.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s     7.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     7.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 800
+[2KGIL: 83.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 46.00%  46.00%    3.29s     3.29s   normpath (posixpath.py)
+[2K 28.00%  88.00%    1.98s     6.97s   abspath (posixpath.py)
+[2K 11.00%  11.00%    1.05s     1.11s   join (posixpath.py)
+[2K 12.00% 100.00%    1.03s     8.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  2.00%   3.00%   0.430s    0.590s   isabs (posixpath.py)
+[2K  1.00%   1.00%   0.220s    0.220s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s     8.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     8.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     8.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     8.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     8.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s     8.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     8.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s     8.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s     8.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     8.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 900
+[2KGIL: 85.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 40.00%  40.00%    3.69s     3.69s   normpath (posixpath.py)
+[2K 25.00%  84.00%    2.23s     7.81s   abspath (posixpath.py)
+[2K 16.00% 100.00%    1.19s     9.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 11.00%  11.00%    1.16s     1.22s   join (posixpath.py)
+[2K  6.00%   8.00%   0.490s    0.670s   isabs (posixpath.py)
+[2K  2.00%   2.00%   0.240s    0.240s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s     9.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     9.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     9.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     9.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     9.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s     9.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     9.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s     9.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s     9.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     9.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1000
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 44.00%  44.00%    4.13s     4.13s   normpath (posixpath.py)
+[2K 22.00%  81.00%    2.45s     8.62s   abspath (posixpath.py)
+[2K 19.00% 100.00%    1.38s    10.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  9.00%  10.00%    1.25s     1.32s   join (posixpath.py)
+[2K  4.00%   5.00%   0.530s    0.720s   isabs (posixpath.py)
+[2K  2.00%   2.00%   0.260s    0.260s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    10.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    10.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    10.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    10.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    10.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    10.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    10.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    10.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    10.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    10.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1100
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 45.00%  45.00%    4.58s     4.58s   normpath (posixpath.py)
+[2K 19.00%  88.00%    2.64s     9.50s   abspath (posixpath.py)
+[2K 12.00% 100.00%    1.50s    11.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 17.00%  17.00%    1.42s     1.49s   join (posixpath.py)
+[2K  6.00%   7.00%   0.590s    0.790s   isabs (posixpath.py)
+[2K  1.00%   1.00%   0.270s    0.270s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    11.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    11.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    11.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    11.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    11.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    11.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    11.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    11.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    11.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    11.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1200
+[2KGIL: 80.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 46.00%  46.00%    5.04s     5.04s   normpath (posixpath.py)
+[2K 26.00%  91.00%    2.90s    10.41s   abspath (posixpath.py)
+[2K  9.00% 100.00%    1.59s    12.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 10.00%  11.00%    1.52s     1.60s   join (posixpath.py)
+[2K  7.00%   8.00%   0.660s    0.870s   isabs (posixpath.py)
+[2K  2.00%   2.00%   0.290s    0.290s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    12.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    12.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    12.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    12.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    12.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    12.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    12.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    12.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    12.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    12.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1300
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 48.00%  48.00%    5.52s     5.52s   normpath (posixpath.py)
+[2K 20.00%  86.00%    3.10s    11.27s   abspath (posixpath.py)
+[2K 14.00% 100.00%    1.73s    13.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 13.00%  13.00%    1.65s     1.73s   join (posixpath.py)
+[2K  4.00%   5.00%   0.700s    0.920s   isabs (posixpath.py)
+[2K  1.00%   1.00%   0.300s    0.300s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    13.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    13.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    13.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    13.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    13.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    13.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    13.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    13.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    13.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    13.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1400
+[2KGIL: 80.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 38.00%  38.00%    5.90s     5.90s   normpath (posixpath.py)
+[2K 32.00%  90.00%    3.42s    12.17s   abspath (posixpath.py)
+[2K 10.00% 100.00%    1.83s    14.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 14.00%  14.00%    1.79s     1.87s   join (posixpath.py)
+[2K  5.00%   6.00%   0.750s    0.980s   isabs (posixpath.py)
+[2K  1.00%   1.00%   0.310s    0.310s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    14.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    14.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    14.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    14.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    14.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    14.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    14.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    14.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    14.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    14.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1500
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 50.00%  50.00%    6.40s     6.40s   normpath (posixpath.py)
+[2K 21.00%  91.00%    3.63s    13.08s   abspath (posixpath.py)
+[2K 13.00%  15.00%    1.92s     2.02s   join (posixpath.py)
+[2K  9.00% 100.00%    1.92s    15.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  5.00%   5.00%   0.800s     1.03s   isabs (posixpath.py)
+[2K  2.00%   2.00%   0.330s    0.330s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    15.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    15.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    15.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    15.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    15.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    15.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    15.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    15.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    15.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    15.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1600
+[2KGIL: 85.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 49.00%  49.00%    6.89s     6.89s   normpath (posixpath.py)
+[2K 16.00%  83.00%    3.79s    13.91s   abspath (posixpath.py)
+[2K 17.00% 100.00%    2.09s    16.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 10.00%  12.00%    2.02s     2.14s   join (posixpath.py)
+[2K  3.00%   6.00%   0.830s     1.09s   isabs (posixpath.py)
+[2K  5.00%   5.00%   0.380s    0.380s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    16.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    16.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    16.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    16.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    16.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    16.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    16.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    16.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    16.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    16.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1700
+[2KGIL: 91.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%    7.32s     7.32s   normpath (posixpath.py)
+[2K 21.00%  89.00%    4.00s    14.80s   abspath (posixpath.py)
+[2K 18.00%  18.00%    2.20s     2.32s   join (posixpath.py)
+[2K 11.00% 100.00%    2.20s    17.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  4.00%   7.00%   0.870s     1.16s   isabs (posixpath.py)
+[2K  3.00%   3.00%   0.410s    0.410s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    17.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    17.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    17.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    17.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    17.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    17.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    17.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    17.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    17.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    17.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1800
+[2KGIL: 91.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 37.00%  37.00%    7.69s     7.69s   normpath (posixpath.py)
+[2K 22.00%  85.00%    4.22s    15.65s   abspath (posixpath.py)
+[2K 17.00%  19.00%    2.37s     2.51s   join (posixpath.py)
+[2K 15.00% 100.00%    2.35s    18.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  6.00%   7.00%   0.930s     1.23s   isabs (posixpath.py)
+[2K  3.00%   3.00%   0.440s    0.440s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    18.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    18.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    18.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    18.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    18.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    18.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    18.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    18.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    18.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    18.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1900
+[2KGIL: 92.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 40.00%  40.00%    8.09s     8.09s   normpath (posixpath.py)
+[2K 24.00%  87.00%    4.46s    16.52s   abspath (posixpath.py)
+[2K 11.00%  13.00%    2.48s     2.64s   join (posixpath.py)
+[2K 13.00% 100.00%    2.48s    19.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  7.00%  10.00%    1.00s     1.33s   isabs (posixpath.py)
+[2K  5.00%   5.00%   0.490s    0.490s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    19.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    19.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    19.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    19.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    19.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    19.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    19.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    19.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    19.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    19.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2000
+[2KGIL: 82.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 41.00%  41.00%    8.50s     8.50s   normpath (posixpath.py)
+[2K 27.00%  91.00%    4.73s    17.43s   abspath (posixpath.py)
+[2K 11.00%  13.00%    2.59s     2.77s   join (posixpath.py)
+[2K  9.00% 100.00%    2.57s    20.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  8.00%  10.00%    1.08s     1.43s   isabs (posixpath.py)
+[2K  4.00%   4.00%   0.530s    0.530s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    20.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    20.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    20.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    20.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    20.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    20.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    20.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    20.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    20.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    20.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2100
+[2KGIL: 89.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 51.00%  51.00%    9.01s     9.01s   normpath (posixpath.py)
+[2K 19.00%  91.00%    4.92s    18.34s   abspath (posixpath.py)
+[2K 14.00%  14.00%    2.73s     2.91s   join (posixpath.py)
+[2K  9.00% 100.00%    2.66s    21.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  7.00%   7.00%    1.15s     1.50s   isabs (posixpath.py)
+[2K  0.00%   0.00%   0.530s    0.530s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    21.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    21.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    21.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    21.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    21.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    21.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    21.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    21.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    21.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    21.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2200
+[2KGIL: 84.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 36.00%  36.00%    9.37s     9.37s   normpath (posixpath.py)
+[2K 25.00%  82.00%    5.17s    19.16s   abspath (posixpath.py)
+[2K 15.00%  16.00%    2.88s     3.07s   join (posixpath.py)
+[2K 18.00% 100.00%    2.84s    22.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  4.00%   5.00%    1.19s     1.55s   isabs (posixpath.py)
+[2K  2.00%   2.00%   0.550s    0.550s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    22.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    22.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    22.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    22.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    22.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    22.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    22.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    22.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    22.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    22.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2300
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 48.00%  48.00%    9.85s     9.85s   normpath (posixpath.py)
+[2K 18.00%  80.00%    5.35s    19.96s   abspath (posixpath.py)
+[2K 20.00% 100.00%    3.04s    23.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  9.00%   9.00%    2.97s     3.16s   join (posixpath.py)
+[2K  5.00%   5.00%    1.24s     1.60s   isabs (posixpath.py)
+[2K  0.00%   0.00%   0.550s    0.550s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    23.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    23.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    23.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    23.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    23.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    23.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    23.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    23.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    23.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    23.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2400
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 42.00%  42.00%   10.27s    10.27s   normpath (posixpath.py)
+[2K 22.00%  83.00%    5.57s    20.79s   abspath (posixpath.py)
+[2K 17.00% 100.00%    3.21s    24.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 13.00%  14.00%    3.10s     3.30s   join (posixpath.py)
+[2K  2.00%   5.00%    1.26s     1.65s   isabs (posixpath.py)
+[2K  4.00%   4.00%   0.590s    0.590s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    24.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    24.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    24.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    24.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    24.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    24.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    24.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    24.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    24.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    24.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2500
+[2KGIL: 85.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 39.00%  39.00%   10.66s    10.66s   normpath (posixpath.py)
+[2K 23.00%  87.00%    5.80s    21.66s   abspath (posixpath.py)
+[2K 13.00% 100.00%    3.34s    25.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 15.00%  17.00%    3.25s     3.47s   join (posixpath.py)
+[2K  6.00%   8.00%    1.32s     1.73s   isabs (posixpath.py)
+[2K  4.00%   4.00%   0.630s    0.630s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    25.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    25.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    25.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    25.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    25.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    25.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    25.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    25.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    25.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    25.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2600
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 47.00%  47.00%   11.13s    11.13s   normpath (posixpath.py)
+[2K 22.00%  86.00%    6.02s    22.52s   abspath (posixpath.py)
+[2K 14.00% 100.00%    3.48s    26.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 11.00%  11.00%    3.36s     3.58s   join (posixpath.py)
+[2K  4.00%   6.00%    1.36s     1.79s   isabs (posixpath.py)
+[2K  2.00%   2.00%   0.650s    0.650s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    26.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    26.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    26.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    26.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    26.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    26.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    26.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    26.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    26.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    26.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2700
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 39.00%  39.00%   11.52s    11.52s   normpath (posixpath.py)
+[2K 23.00%  84.00%    6.25s    23.36s   abspath (posixpath.py)
+[2K 16.00% 100.00%    3.64s    27.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 15.00%  15.00%    3.51s     3.73s   join (posixpath.py)
+[2K  7.00%   7.00%    1.43s     1.86s   isabs (posixpath.py)
+[2K  0.00%   0.00%   0.650s    0.650s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    27.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    27.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    27.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    27.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    27.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    27.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    27.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    27.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    27.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    27.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2800
+[2KGIL: 81.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 34.00%  34.00%   11.86s    11.86s   normpath (posixpath.py)
+[2K 28.00%  88.00%    6.53s    24.24s   abspath (posixpath.py)
+[2K 12.00% 100.00%    3.76s    28.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 19.00%  20.00%    3.70s     3.93s   join (posixpath.py)
+[2K  2.00%   6.00%    1.45s     1.92s   isabs (posixpath.py)
+[2K  5.00%   5.00%   0.700s    0.700s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    28.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    28.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    28.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    28.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    28.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    28.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    28.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    28.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    28.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    28.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 2900
+[2KGIL: 84.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 39.00%  39.00%   12.25s    12.25s   normpath (posixpath.py)
+[2K 23.00%  86.00%    6.76s    25.10s   abspath (posixpath.py)
+[2K 14.00% 100.00%    3.90s    29.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 16.00%  17.00%    3.86s     4.10s   join (posixpath.py)
+[2K  5.00%   7.00%    1.50s     1.99s   isabs (posixpath.py)
+[2K  3.00%   3.00%   0.730s    0.730s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    29.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    29.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    29.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    29.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    29.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    29.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    29.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    29.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    29.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    29.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3000
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 45.00%  45.00%   12.70s    12.70s   normpath (posixpath.py)
+[2K 26.00%  92.00%    7.02s    26.02s   abspath (posixpath.py)
+[2K 17.00%  17.00%    4.03s     4.27s   join (posixpath.py)
+[2K  8.00% 100.00%    3.98s    30.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  4.00%   4.00%    1.54s     2.03s   isabs (posixpath.py)
+[2K  0.00%   0.00%   0.730s    0.730s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    30.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    30.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    30.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    30.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    30.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    30.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    30.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    30.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    30.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    30.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3100
+[2KGIL: 81.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 32.00%  32.00%   13.02s    13.02s   normpath (posixpath.py)
+[2K 30.00%  86.00%    7.32s    26.88s   abspath (posixpath.py)
+[2K 14.00%  16.00%    4.17s     4.43s   join (posixpath.py)
+[2K 14.00% 100.00%    4.12s    31.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  7.00%   8.00%    1.61s     2.11s   isabs (posixpath.py)
+[2K  3.00%   3.00%   0.760s    0.760s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    31.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    31.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    31.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    31.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    31.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    31.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    31.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    31.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    31.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    31.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3200
+[2KGIL: 83.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 27.00%  27.00%   13.29s    13.29s   normpath (posixpath.py)
+[2K 27.00%  74.00%    7.59s    27.62s   abspath (posixpath.py)
+[2K 26.00% 100.00%    4.38s    32.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 14.00%  17.00%    4.31s     4.60s   join (posixpath.py)
+[2K  3.00%   3.00%    1.64s     2.14s   isabs (posixpath.py)
+[2K  3.00%   3.00%   0.790s    0.790s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    32.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    32.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    32.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    32.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    32.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    32.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    32.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    32.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    32.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    32.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3300
+[2KGIL: 84.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 31.00%  31.00%   13.60s    13.60s   normpath (posixpath.py)
+[2K 24.00%  81.00%    7.83s    28.43s   abspath (posixpath.py)
+[2K 19.00% 100.00%    4.57s    33.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 14.00%  15.00%    4.45s     4.75s   join (posixpath.py)
+[2K  9.00%  11.00%    1.73s     2.25s   isabs (posixpath.py)
+[2K  3.00%   3.00%   0.820s    0.820s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    33.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    33.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    33.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    33.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    33.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    33.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    33.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    33.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    33.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    33.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3400
+[2KGIL: 90.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 53.00%  53.00%   14.13s    14.13s   normpath (posixpath.py)
+[2K 17.00%  90.00%    8.00s    29.33s   abspath (posixpath.py)
+[2K 10.00% 100.00%    4.67s    34.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 13.00%  14.00%    4.58s     4.89s   join (posixpath.py)
+[2K  3.00%   6.00%    1.76s     2.31s   isabs (posixpath.py)
+[2K  4.00%   4.00%   0.860s    0.860s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    34.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    34.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    34.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    34.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    34.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    34.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    34.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    34.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    34.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    34.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3500
+[2KGIL: 84.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 44.00%  44.00%   14.57s    14.57s   normpath (posixpath.py)
+[2K 22.00%  83.00%    8.22s    30.16s   abspath (posixpath.py)
+[2K 17.00% 100.00%    4.84s    35.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 11.00%  12.00%    4.69s     5.01s   join (posixpath.py)
+[2K  4.00%   5.00%    1.80s     2.36s   isabs (posixpath.py)
+[2K  2.00%   2.00%   0.880s    0.880s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    35.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    35.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    35.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    35.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    35.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    35.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    35.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    35.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    35.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    35.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3600
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%   15.00s    15.00s   normpath (posixpath.py)
+[2K 20.00%  84.00%    8.42s    31.00s   abspath (posixpath.py)
+[2K 16.00% 100.00%    5.00s    36.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  8.00%   8.00%    4.77s     5.09s   join (posixpath.py)
+[2K  9.00%  13.00%    1.89s     2.49s   isabs (posixpath.py)
+[2K  4.00%   4.00%   0.920s    0.920s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    36.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    36.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    36.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    36.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    36.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    36.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    36.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    36.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    36.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    36.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3700
+[2KGIL: 84.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 41.00%  41.00%   15.41s    15.41s   normpath (posixpath.py)
+[2K 28.00%  92.00%    8.70s    31.92s   abspath (posixpath.py)
+[2K  8.00% 100.00%    5.08s    37.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 13.00%  14.00%    4.90s     5.23s   join (posixpath.py)
+[2K  6.00%   9.00%    1.95s     2.58s   isabs (posixpath.py)
+[2K  4.00%   4.00%   0.960s    0.960s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    37.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    37.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    37.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    37.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    37.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    37.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    37.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    37.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    37.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    37.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3800
+[2KGIL: 83.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 40.00%  40.00%   15.81s    15.81s   normpath (posixpath.py)
+[2K 26.00%  91.00%    8.96s    32.83s   abspath (posixpath.py)
+[2K  9.00% 100.00%    5.17s    38.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 16.00%  19.00%    5.06s     5.42s   join (posixpath.py)
+[2K  6.00%   6.00%    2.01s     2.64s   isabs (posixpath.py)
+[2K  3.00%   3.00%   0.990s    0.990s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    38.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    38.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    38.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    38.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    38.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    38.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    38.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    38.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    38.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    38.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 3900
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 47.00%  47.00%   16.28s    16.28s   normpath (posixpath.py)
+[2K 25.00%  87.00%    9.21s    33.70s   abspath (posixpath.py)
+[2K 13.00% 100.00%    5.30s    39.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 11.00%  11.00%    5.17s     5.53s   join (posixpath.py)
+[2K  4.00%   4.00%    2.05s     2.68s   isabs (posixpath.py)
+[2K  0.00%   0.00%   0.990s    0.990s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    39.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    39.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    39.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    39.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    39.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    39.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    39.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    39.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    39.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    39.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4000
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 35.00%  35.00%   16.63s    16.63s   normpath (posixpath.py)
+[2K 25.00%  86.00%    9.46s    34.56s   abspath (posixpath.py)
+[2K 14.00% 100.00%    5.44s    40.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 16.00%  17.00%    5.33s     5.70s   join (posixpath.py)
+[2K  7.00%   9.00%    2.12s     2.77s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.02s     1.02s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    40.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    40.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    40.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    40.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    40.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    40.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    40.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    40.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    40.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    40.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4100
+[2KGIL: 85.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%   17.06s    17.06s   normpath (posixpath.py)
+[2K 22.00%  90.00%    9.68s    35.46s   abspath (posixpath.py)
+[2K 10.00% 100.00%    5.54s    41.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 13.00%  13.00%    5.46s     5.83s   join (posixpath.py)
+[2K  9.00%  12.00%    2.21s     2.89s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.05s     1.05s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    41.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    41.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    41.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    41.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    41.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    41.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    41.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    41.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    41.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    41.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4200
+[2KGIL: 85.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 39.00%  39.00%   17.45s    17.45s   normpath (posixpath.py)
+[2K 27.00%  89.00%    9.95s    36.35s   abspath (posixpath.py)
+[2K 11.00% 100.00%    5.65s    42.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 18.00%  19.00%    5.64s     6.02s   join (posixpath.py)
+[2K  4.00%   4.00%    2.25s     2.93s   isabs (posixpath.py)
+[2K  1.00%   1.00%    1.06s     1.06s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    42.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    42.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    42.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    42.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    42.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    42.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    42.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    42.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    42.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    42.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4300
+[2KGIL: 82.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%   17.88s    17.88s   normpath (posixpath.py)
+[2K 26.00%  92.00%   10.21s    37.27s   abspath (posixpath.py)
+[2K 14.00%  15.00%    5.78s     6.17s   join (posixpath.py)
+[2K  8.00% 100.00%    5.73s    43.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  5.00%   8.00%    2.30s     3.01s   isabs (posixpath.py)
+[2K  4.00%   4.00%    1.10s     1.10s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    43.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    43.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    43.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    43.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    43.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    43.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    43.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    43.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    43.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    43.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4400
+[2KGIL: 89.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%   18.31s    18.31s   normpath (posixpath.py)
+[2K 20.00%  89.00%   10.41s    38.16s   abspath (posixpath.py)
+[2K 14.00%  17.00%    5.92s     6.34s   join (posixpath.py)
+[2K 11.00% 100.00%    5.84s    44.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  7.00%   9.00%    2.37s     3.10s   isabs (posixpath.py)
+[2K  5.00%   5.00%    1.15s     1.15s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    44.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    44.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    44.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    44.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    44.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    44.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    44.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    44.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    44.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    44.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4500
+[2KGIL: 83.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 49.00%  49.00%   18.80s    18.80s   normpath (posixpath.py)
+[2K 24.00%  90.00%   10.65s    39.06s   abspath (posixpath.py)
+[2K  8.00%  12.00%    6.00s     6.46s   join (posixpath.py)
+[2K 10.00% 100.00%    5.94s    45.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  4.00%   5.00%    2.41s     3.15s   isabs (posixpath.py)
+[2K  5.00%   5.00%    1.20s     1.20s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    45.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    45.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    45.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    45.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    45.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    45.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    45.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    45.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    45.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    45.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4600
+[2KGIL: 80.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 37.00%  37.00%   19.17s    19.17s   normpath (posixpath.py)
+[2K 25.00%  90.00%   10.90s    39.96s   abspath (posixpath.py)
+[2K 16.00%  17.00%    6.16s     6.63s   join (posixpath.py)
+[2K 10.00% 100.00%    6.04s    46.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 10.00%  11.00%    2.51s     3.26s   isabs (posixpath.py)
+[2K  2.00%   2.00%    1.22s     1.22s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    46.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    46.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    46.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    46.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    46.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    46.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    46.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    46.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    46.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    46.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4700
+[2KGIL: 90.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 44.00%  44.00%   19.61s    19.61s   normpath (posixpath.py)
+[2K 18.00%  89.00%   11.08s    40.85s   abspath (posixpath.py)
+[2K 15.00%  17.00%    6.31s     6.80s   join (posixpath.py)
+[2K 11.00% 100.00%    6.15s    47.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  7.00%  10.00%    2.58s     3.36s   isabs (posixpath.py)
+[2K  5.00%   5.00%    1.27s     1.27s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    47.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    47.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    47.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    47.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    47.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    47.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    47.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    47.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    47.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    47.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4800
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%   20.04s    20.04s   normpath (posixpath.py)
+[2K 30.00%  93.00%   11.38s    41.78s   abspath (posixpath.py)
+[2K 12.00%  13.00%    6.43s     6.93s   join (posixpath.py)
+[2K  7.00% 100.00%    6.22s    48.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  5.00%   7.00%    2.63s     3.43s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.30s     1.30s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    48.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    48.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    48.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    48.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    48.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    48.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    48.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    48.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    48.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    48.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 4900
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 48.00%  48.00%   20.52s    20.52s   normpath (posixpath.py)
+[2K 24.00%  93.00%   11.62s    42.71s   abspath (posixpath.py)
+[2K 14.00%  19.00%    6.57s     7.12s   join (posixpath.py)
+[2K  7.00% 100.00%    6.29s    49.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  2.00%   2.00%    2.65s     3.45s   isabs (posixpath.py)
+[2K  5.00%   5.00%    1.35s     1.35s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    49.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    49.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    49.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    49.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    49.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    49.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    49.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    49.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    49.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    49.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5000
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 36.00%  36.00%   20.88s    20.88s   normpath (posixpath.py)
+[2K 24.00%  87.00%   11.86s    43.58s   abspath (posixpath.py)
+[2K 22.00%  23.00%    6.79s     7.35s   join (posixpath.py)
+[2K 13.00% 100.00%    6.42s    50.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  3.00%   4.00%    2.68s     3.49s   isabs (posixpath.py)
+[2K  2.00%   2.00%    1.37s     1.37s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    50.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    50.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    50.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    50.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    50.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    50.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    50.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    50.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    50.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    50.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5100
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 46.00%  46.00%   21.34s    21.34s   normpath (posixpath.py)
+[2K 24.00%  91.00%   12.10s    44.49s   abspath (posixpath.py)
+[2K 13.00%  14.00%    6.92s     7.49s   join (posixpath.py)
+[2K  9.00% 100.00%    6.51s    51.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  7.00%   7.00%    2.75s     3.56s   isabs (posixpath.py)
+[2K  1.00%   1.00%    1.38s     1.38s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    51.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    51.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    51.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    51.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    51.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    51.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    51.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    51.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    51.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    51.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5200
+[2KGIL: 84.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 41.00%  41.00%   21.75s    21.75s   normpath (posixpath.py)
+[2K 27.00%  91.00%   12.37s    45.40s   abspath (posixpath.py)
+[2K 15.00%  17.00%    7.07s     7.66s   join (posixpath.py)
+[2K  9.00% 100.00%    6.60s    52.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  6.00%   6.00%    2.81s     3.62s   isabs (posixpath.py)
+[2K  2.00%   2.00%    1.40s     1.40s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    52.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    52.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    52.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    52.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    52.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    52.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    52.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    52.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    52.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    52.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5300
+[2KGIL: 82.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 40.00%  40.00%   22.15s    22.15s   normpath (posixpath.py)
+[2K 24.00%  83.00%   12.61s    46.23s   abspath (posixpath.py)
+[2K 14.00%  15.00%    7.21s     7.81s   join (posixpath.py)
+[2K 17.00% 100.00%    6.77s    53.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  2.00%   4.00%    2.83s     3.66s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.43s     1.43s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    53.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    53.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    53.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    53.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    53.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    53.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    53.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    53.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    53.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    53.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5400
+[2KGIL: 80.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 41.00%  41.00%   22.56s    22.56s   normpath (posixpath.py)
+[2K 28.00%  86.00%   12.89s    47.09s   abspath (posixpath.py)
+[2K  8.00%  12.00%    7.29s     7.93s   join (posixpath.py)
+[2K 14.00% 100.00%    6.91s    54.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  3.00%   5.00%    2.86s     3.71s   isabs (posixpath.py)
+[2K  6.00%   6.00%    1.49s     1.49s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    54.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    54.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    54.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    54.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    54.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    54.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    54.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    54.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    54.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    54.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5500
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  5.00%   5.00%   22.61s    22.61s   normpath (posixpath.py)
+[2K  0.00%  97.00%   12.89s    48.06s   abspath (posixpath.py)
+[2K 91.00%  91.00%    8.20s     8.84s   join (posixpath.py)
+[2K  3.00% 100.00%    6.94s    55.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  1.00%   1.00%    2.87s     3.72s   isabs (posixpath.py)
+[2K  0.00%   0.00%    1.49s     1.49s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    55.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    55.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    55.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    55.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    55.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    55.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    55.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    55.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    55.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    55.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5600
+[2KGIL: 98.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 18.00%  18.00%   22.79s    22.79s   normpath (posixpath.py)
+[2K  5.00%  94.00%   12.94s    49.00s   abspath (posixpath.py)
+[2K 71.00%  71.00%    8.91s     9.55s   join (posixpath.py)
+[2K  6.00% 100.00%    7.00s    56.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  0.00%   0.00%    2.87s     3.72s   isabs (posixpath.py)
+[2K  0.00%   0.00%    1.49s     1.49s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    56.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    56.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    56.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    56.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    56.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    56.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    56.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    56.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    56.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    56.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5700
+[2KGIL: 82.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 44.00%  44.00%   23.23s    23.23s   normpath (posixpath.py)
+[2K 25.00%  87.00%   13.19s    49.87s   abspath (posixpath.py)
+[2K 13.00%  14.00%    9.04s     9.69s   join (posixpath.py)
+[2K 13.00% 100.00%    7.13s    57.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  3.00%   4.00%    2.90s     3.76s   isabs (posixpath.py)
+[2K  2.00%   2.00%    1.51s     1.51s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    57.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    57.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    57.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    57.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    57.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    57.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    57.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    57.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    57.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    57.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5800
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 44.00%  44.00%   23.67s    23.67s   normpath (posixpath.py)
+[2K 24.00%  89.00%   13.43s    50.76s   abspath (posixpath.py)
+[2K 14.00%  16.00%    9.18s     9.85s   join (posixpath.py)
+[2K 11.00% 100.00%    7.24s    58.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  4.00%   5.00%    2.94s     3.81s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.54s     1.54s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    58.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    58.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    58.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    58.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    58.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    58.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    58.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    58.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    58.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    58.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 5900
+[2KGIL: 82.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 45.00%  45.00%   24.12s    24.12s   normpath (posixpath.py)
+[2K 27.00%  96.00%   13.70s    51.72s   abspath (posixpath.py)
+[2K 19.00%  19.00%    9.37s    10.04s   join (posixpath.py)
+[2K  4.00% 100.00%    7.28s    59.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  5.00%   5.00%    2.99s     3.86s   isabs (posixpath.py)
+[2K  0.00%   0.00%    1.54s     1.54s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    59.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    59.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    59.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    59.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    59.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    59.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    59.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    59.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    59.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    59.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6000
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 48.00%  48.00%   24.60s    24.60s   normpath (posixpath.py)
+[2K 26.00%  90.00%   13.96s    52.62s   abspath (posixpath.py)
+[2K  9.00%  10.00%    9.46s    10.14s   join (posixpath.py)
+[2K 10.00% 100.00%    7.38s    60.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  3.00%   6.00%    3.02s     3.92s   isabs (posixpath.py)
+[2K  4.00%   4.00%    1.58s     1.58s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    60.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    60.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    60.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    60.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    60.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    60.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    60.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    60.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    60.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    60.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6100
+[2KGIL: 80.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 49.00%  49.00%   25.09s    25.09s   normpath (posixpath.py)
+[2K 28.00%  90.00%   14.24s    53.52s   abspath (posixpath.py)
+[2K 11.00%  11.00%    9.57s    10.25s   join (posixpath.py)
+[2K 10.00% 100.00%    7.48s    61.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  2.00%   2.00%    3.04s     3.94s   isabs (posixpath.py)
+[2K  0.00%   0.00%    1.58s     1.58s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    61.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    61.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    61.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    61.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    61.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    61.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    61.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    61.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    61.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    61.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6200
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 39.00%  39.00%   25.48s    25.48s   normpath (posixpath.py)
+[2K 20.00%  84.00%   14.44s    54.36s   abspath (posixpath.py)
+[2K 18.00%  19.00%    9.75s    10.44s   join (posixpath.py)
+[2K 16.00% 100.00%    7.64s    62.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  4.00%   6.00%    3.08s     4.00s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.61s     1.61s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    62.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    62.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    62.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    62.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    62.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    62.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    62.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    62.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    62.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    62.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6300
+[2KGIL: 74.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 40.00%  40.00%   25.88s    25.88s   normpath (posixpath.py)
+[2K 33.00%  95.00%   14.77s    55.31s   abspath (posixpath.py)
+[2K 13.00%  15.00%    9.88s    10.59s   join (posixpath.py)
+[2K  5.00% 100.00%    7.69s    63.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  6.00%   7.00%    3.14s     4.07s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.64s     1.64s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    63.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    63.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    63.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    63.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    63.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    63.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    63.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    63.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    63.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    63.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6400
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 39.00%  39.00%   26.27s    26.27s   normpath (posixpath.py)
+[2K 22.00%  84.00%   14.99s    56.15s   abspath (posixpath.py)
+[2K 16.00%  17.00%   10.04s    10.76s   join (posixpath.py)
+[2K 16.00% 100.00%    7.85s    64.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  5.00%   6.00%    3.19s     4.13s   isabs (posixpath.py)
+[2K  2.00%   2.00%    1.66s     1.66s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    64.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    64.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    64.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    64.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    64.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    64.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    64.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    64.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    64.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    64.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6500
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 42.00%  42.00%   26.69s    26.69s   normpath (posixpath.py)
+[2K 26.00%  89.00%   15.25s    57.04s   abspath (posixpath.py)
+[2K 12.00%  14.00%   10.16s    10.90s   join (posixpath.py)
+[2K 11.00% 100.00%    7.96s    65.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  5.00%   7.00%    3.24s     4.20s   isabs (posixpath.py)
+[2K  4.00%   4.00%    1.70s     1.70s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    65.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    65.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    65.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    65.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    65.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    65.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    65.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    65.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    65.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    65.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6600
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 38.00%  38.00%   27.07s    27.07s   normpath (posixpath.py)
+[2K 21.00%  86.00%   15.46s    57.90s   abspath (posixpath.py)
+[2K 18.00%  19.00%   10.34s    11.09s   join (posixpath.py)
+[2K 14.00% 100.00%    8.10s    66.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  7.00%   8.00%    3.31s     4.28s   isabs (posixpath.py)
+[2K  2.00%   2.00%    1.72s     1.72s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    66.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    66.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    66.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    66.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    66.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    66.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    66.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    66.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    66.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    66.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6700
+[2KGIL: 90.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 27.00%  27.00%   27.34s    27.34s   normpath (posixpath.py)
+[2K 17.00%  61.00%   15.63s    58.51s   abspath (posixpath.py)
+[2K 12.00%  12.00%   10.46s    11.21s   join (posixpath.py)
+[2K 39.00% 100.00%    8.49s    67.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  4.00%   5.00%    3.35s     4.33s   isabs (posixpath.py)
+[2K  1.00%   1.00%    1.73s     1.73s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    67.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    67.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    67.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    67.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    67.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    67.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    67.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    67.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    67.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    67.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6800
+[2KGIL: 79.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 41.00%  41.00%   27.75s    27.75s   normpath (posixpath.py)
+[2K 26.00%  93.00%   15.89s    59.44s   abspath (posixpath.py)
+[2K 17.00%  17.00%   10.63s    11.38s   join (posixpath.py)
+[2K  7.00% 100.00%    8.56s    68.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  9.00%   9.00%    3.44s     4.42s   isabs (posixpath.py)
+[2K  0.00%   0.00%    1.73s     1.73s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    68.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    68.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    68.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    68.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    68.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    68.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    68.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    68.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    68.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    68.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 6900
+[2KGIL: 78.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 38.00%  38.00%   28.13s    28.13s   normpath (posixpath.py)
+[2K 35.00%  90.00%   16.24s    60.34s   abspath (posixpath.py)
+[2K  9.00%  13.00%   10.72s    11.51s   join (posixpath.py)
+[2K 10.00% 100.00%    8.66s    69.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  2.00%   4.00%    3.46s     4.46s   isabs (posixpath.py)
+[2K  6.00%   6.00%    1.79s     1.79s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    69.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    69.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    69.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    69.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    69.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    69.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    69.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    69.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    69.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    69.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7000
+[2KGIL: 77.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 41.00%  41.00%   28.54s    28.54s   normpath (posixpath.py)
+[2K 31.00%  89.00%   16.55s    61.23s   abspath (posixpath.py)
+[2K  8.00%   8.00%   10.80s    11.59s   join (posixpath.py)
+[2K 11.00% 100.00%    8.77s    70.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  6.00%   9.00%    3.52s     4.55s   isabs (posixpath.py)
+[2K  3.00%   3.00%    1.82s     1.82s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    70.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    70.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    70.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    70.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    70.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    70.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    70.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    70.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    70.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    70.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7100
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 38.00%  38.00%   28.92s    28.92s   normpath (posixpath.py)
+[2K 21.00%  81.00%   16.76s    62.04s   abspath (posixpath.py)
+[2K 15.00%  17.00%   10.95s    11.76s   join (posixpath.py)
+[2K 19.00% 100.00%    8.96s    71.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  3.00%   5.00%    3.55s     4.60s   isabs (posixpath.py)
+[2K  4.00%   4.00%    1.86s     1.86s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    71.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    71.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    71.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    71.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    71.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    71.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    71.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    71.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    71.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    71.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7200
+[2KGIL: 83.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 47.00%  47.00%   29.39s    29.39s   normpath (posixpath.py)
+[2K 25.00%  92.00%   17.01s    62.96s   abspath (posixpath.py)
+[2K 14.00%  15.00%   11.09s    11.91s   join (posixpath.py)
+[2K  8.00% 100.00%    9.04s    72.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  5.00%   5.00%    3.60s     4.65s   isabs (posixpath.py)
+[2K  1.00%   1.00%    1.87s     1.87s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    72.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    72.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    72.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    72.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    72.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    72.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    72.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    72.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    72.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    72.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7300
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 49.00%  49.00%   29.88s    29.88s   normpath (posixpath.py)
+[2K 23.00%  84.00%   17.24s    63.80s   abspath (posixpath.py)
+[2K 10.00%  10.00%   11.19s    12.01s   join (posixpath.py)
+[2K 16.00% 100.00%    9.20s    73.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  2.00%   2.00%    3.62s     4.67s   isabs (posixpath.py)
+[2K  0.00%   0.00%    1.87s     1.87s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    73.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    73.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    73.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    73.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    73.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    73.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    73.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    73.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    73.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    73.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7400
+[2KGIL: 85.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 50.00%  50.00%   30.38s    30.38s   normpath (posixpath.py)
+[2K 21.00%  89.00%   17.45s    64.69s   abspath (posixpath.py)
+[2K 12.00%  13.00%   11.31s    12.14s   join (posixpath.py)
+[2K 11.00% 100.00%    9.31s    74.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  4.00%   5.00%    3.66s     4.72s   isabs (posixpath.py)
+[2K  2.00%   2.00%    1.89s     1.89s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    74.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    74.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    74.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    74.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    74.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    74.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    74.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    74.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    74.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    74.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7500
+[2KGIL: 82.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 34.00%  34.00%   30.72s    30.72s   normpath (posixpath.py)
+[2K 26.00%  86.00%   17.71s    65.55s   abspath (posixpath.py)
+[2K 19.00%  25.00%   11.50s    12.39s   join (posixpath.py)
+[2K 14.00% 100.00%    9.45s    75.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  1.00%   1.00%    3.67s     4.73s   isabs (posixpath.py)
+[2K  6.00%   6.00%    1.95s     1.95s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    75.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    75.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    75.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    75.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    75.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    75.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    75.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    75.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    75.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    75.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7600
+[2KGIL: 86.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 50.00%  50.00%   31.22s    31.22s   normpath (posixpath.py)
+[2K 19.00%  84.00%   17.90s    66.39s   abspath (posixpath.py)
+[2K 10.00%  10.00%   11.60s    12.49s   join (posixpath.py)
+[2K 16.00% 100.00%    9.61s    76.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  4.00%   5.00%    3.71s     4.78s   isabs (posixpath.py)
+[2K  1.00%   1.00%    1.96s     1.96s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    76.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    76.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    76.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    76.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    76.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    76.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    76.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    76.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    76.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    76.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7700
+[2KGIL: 84.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 40.00%  40.00%   31.62s    31.62s   normpath (posixpath.py)
+[2K 24.00%  87.00%   18.14s    67.26s   abspath (posixpath.py)
+[2K 14.00%  15.00%   11.74s    12.64s   join (posixpath.py)
+[2K 13.00% 100.00%    9.74s    77.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  7.00%   8.00%    3.78s     4.86s   isabs (posixpath.py)
+[2K  2.00%   2.00%    1.98s     1.98s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    77.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    77.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    77.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    77.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    77.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    77.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    77.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    77.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    77.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    77.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7800
+[2KGIL: 90.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 36.00%  36.00%   31.98s    31.98s   normpath (posixpath.py)
+[2K 16.00%  79.00%   18.30s    68.05s   abspath (posixpath.py)
+[2K 15.00%  15.00%   11.89s    12.79s   join (posixpath.py)
+[2K 21.00% 100.00%    9.95s    78.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  9.00%  12.00%    3.87s     4.98s   isabs (posixpath.py)
+[2K  3.00%   3.00%    2.01s     2.01s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    78.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    78.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    78.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    78.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    78.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    78.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    78.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    78.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    78.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    78.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 7900
+[2KGIL: 89.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%   32.41s    32.41s   normpath (posixpath.py)
+[2K 20.00%  87.00%   18.50s    68.92s   abspath (posixpath.py)
+[2K 14.00%  16.00%   12.03s    12.95s   join (posixpath.py)
+[2K 13.00% 100.00%   10.08s    79.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  4.00%   8.00%    3.91s     5.06s   isabs (posixpath.py)
+[2K  6.00%   6.00%    2.07s     2.07s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    79.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    79.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    79.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    79.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    79.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    79.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    79.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    79.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    79.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    79.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8000
+[2KGIL: 83.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 42.00%  42.00%   32.83s    32.83s   normpath (posixpath.py)
+[2K 29.00%  90.00%   18.79s    69.82s   abspath (posixpath.py)
+[2K 12.00%  13.00%   12.15s    13.08s   join (posixpath.py)
+[2K 10.00% 100.00%   10.18s    80.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  4.00%   6.00%    3.95s     5.12s   isabs (posixpath.py)
+[2K  3.00%   3.00%    2.10s     2.10s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    80.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    80.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    80.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    80.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    80.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    80.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    80.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    80.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    80.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    80.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8100
+[2KGIL: 76.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 29.00%  29.00%   33.12s    33.12s   normpath (posixpath.py)
+[2K 33.00%  92.00%   19.12s    70.74s   abspath (posixpath.py)
+[2K 21.00%  22.00%   12.36s    13.30s   join (posixpath.py)
+[2K  8.00% 100.00%   10.26s    81.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  7.00%   8.00%    4.02s     5.20s   isabs (posixpath.py)
+[2K  2.00%   2.00%    2.12s     2.12s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    81.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    81.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    81.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    81.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    81.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    81.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    81.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    81.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    81.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    81.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8200
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 40.00%  40.00%   33.52s    33.52s   normpath (posixpath.py)
+[2K 25.00%  83.00%   19.37s    71.57s   abspath (posixpath.py)
+[2K 12.00%  12.00%   12.48s    13.42s   join (posixpath.py)
+[2K 17.00% 100.00%   10.43s    82.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  3.00%   6.00%    4.05s     5.26s   isabs (posixpath.py)
+[2K  3.00%   3.00%    2.15s     2.15s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    82.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    82.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    82.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    82.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    82.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    82.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    82.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    82.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    82.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    82.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8300
+[2KGIL: 91.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 53.00%  53.00%   34.05s    34.05s   normpath (posixpath.py)
+[2K 17.00%  90.00%   19.54s    72.47s   abspath (posixpath.py)
+[2K 15.00%  16.00%   12.63s    13.58s   join (posixpath.py)
+[2K 10.00% 100.00%   10.53s    83.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  3.00%   4.00%    4.08s     5.30s   isabs (posixpath.py)
+[2K  2.00%   2.00%    2.17s     2.17s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    83.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    83.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    83.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    83.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    83.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    83.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    83.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    83.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    83.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    83.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8400
+[2KGIL: 79.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 34.00%  34.00%   34.39s    34.39s   normpath (posixpath.py)
+[2K 29.00%  81.00%   19.83s    73.28s   abspath (posixpath.py)
+[2K 10.00%  10.00%   12.73s    13.68s   join (posixpath.py)
+[2K 19.00% 100.00%   10.72s    84.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  6.00%   8.00%    4.14s     5.38s   isabs (posixpath.py)
+[2K  2.00%   2.00%    2.19s     2.19s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    84.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    84.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    84.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    84.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    84.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    84.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    84.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    84.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    84.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    84.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8500
+[2KGIL: 91.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 50.00%  50.00%   34.89s    34.89s   normpath (posixpath.py)
+[2K 17.00%  90.00%   20.00s    74.18s   abspath (posixpath.py)
+[2K 14.00%  16.00%   12.87s    13.84s   join (posixpath.py)
+[2K 10.00% 100.00%   10.82s    85.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  5.00%   7.00%    4.19s     5.45s   isabs (posixpath.py)
+[2K  4.00%   4.00%    2.23s     2.23s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    85.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    85.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    85.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    85.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    85.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    85.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    85.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    85.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    85.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    85.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8600
+[2KGIL: 89.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 47.00%  47.00%   35.36s    35.36s   normpath (posixpath.py)
+[2K 15.00%  83.00%   20.15s    75.01s   abspath (posixpath.py)
+[2K 15.00%  15.00%   13.02s    13.99s   join (posixpath.py)
+[2K 17.00% 100.00%   10.99s    86.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  3.00%   6.00%    4.22s     5.51s   isabs (posixpath.py)
+[2K  3.00%   3.00%    2.26s     2.26s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    86.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    86.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    86.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    86.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    86.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    86.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    86.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    86.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    86.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    86.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8700
+[2KGIL: 91.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%   35.79s    35.79s   normpath (posixpath.py)
+[2K 22.00%  89.00%   20.37s    75.90s   abspath (posixpath.py)
+[2K 14.00%  14.00%   13.16s    14.13s   join (posixpath.py)
+[2K 11.00% 100.00%   11.10s    87.00s   get_global_map_index (dlio_benchmark/utils/
+[2K 10.00%  10.00%    4.32s     5.61s   isabs (posixpath.py)
+[2K  0.00%   0.00%    2.26s     2.26s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    87.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    87.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    87.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    87.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    87.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    87.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    87.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    87.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    87.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    87.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8800
+[2KGIL: 91.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 44.00%  44.00%   36.23s    36.23s   normpath (posixpath.py)
+[2K 20.00%  90.00%   20.57s    76.80s   abspath (posixpath.py)
+[2K 14.00%  15.00%   13.30s    14.28s   join (posixpath.py)
+[2K 10.00% 100.00%   11.20s    88.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  8.00%  11.00%    4.40s     5.72s   isabs (posixpath.py)
+[2K  4.00%   4.00%    2.30s     2.30s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    88.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    88.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    88.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    88.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    88.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    88.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    88.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    88.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    88.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    88.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 8900
+[2KGIL: 88.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 40.00%  40.00%   36.63s    36.63s   normpath (posixpath.py)
+[2K 25.00%  88.00%   20.82s    77.68s   abspath (posixpath.py)
+[2K 12.00%  16.00%   13.42s    14.44s   join (posixpath.py)
+[2K 12.00% 100.00%   11.32s    89.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  6.00%   7.00%    4.46s     5.79s   isabs (posixpath.py)
+[2K  5.00%   5.00%    2.35s     2.35s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    89.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    89.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    89.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    89.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    89.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    89.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    89.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    89.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    89.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    89.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9000
+[2KGIL: 84.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 43.00%  43.00%   37.06s    37.06s   normpath (posixpath.py)
+[2K 27.00%  91.00%   21.09s    78.59s   abspath (posixpath.py)
+[2K 14.00%  15.00%   13.56s    14.59s   join (posixpath.py)
+[2K  9.00% 100.00%   11.41s    90.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  5.00%   6.00%    4.51s     5.85s   isabs (posixpath.py)
+[2K  2.00%   2.00%    2.37s     2.37s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    90.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    90.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    90.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    90.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    90.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    90.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    90.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    90.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    90.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    90.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9100
+[2KGIL: 82.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 41.00%  41.00%   37.47s    37.47s   normpath (posixpath.py)
+[2K 27.00%  91.00%   21.36s    79.50s   abspath (posixpath.py)
+[2K 11.00%  13.00%   13.67s    14.72s   join (posixpath.py)
+[2K  9.00% 100.00%   11.50s    91.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  8.00%  10.00%    4.59s     5.95s   isabs (posixpath.py)
+[2K  4.00%   4.00%    2.41s     2.41s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    91.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    91.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    91.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    91.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    91.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    91.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    91.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    91.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    91.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    91.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9200
+[2KGIL: 87.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 50.00%  50.00%   37.97s    37.97s   normpath (posixpath.py)
+[2K 22.00%  93.00%   21.58s    80.43s   abspath (posixpath.py)
+[2K 13.00%  14.00%   13.80s    14.86s   join (posixpath.py)
+[2K  7.00% 100.00%   11.57s    92.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  5.00%   7.00%    4.64s     6.02s   isabs (posixpath.py)
+[2K  3.00%   3.00%    2.44s     2.44s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    92.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    92.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    92.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    92.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    92.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    92.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    92.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    92.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    92.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    92.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9300
+[2KGIL: 85.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 44.00%  44.00%   38.41s    38.41s   normpath (posixpath.py)
+[2K 25.00%  89.00%   21.83s    81.32s   abspath (posixpath.py)
+[2K 13.00%  14.00%   13.93s    15.00s   join (posixpath.py)
+[2K 11.00% 100.00%   11.68s    93.00s   get_global_map_index (dlio_benchmark/utils/
+[2K  3.00%   6.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K  4.00%   4.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K  0.00% 100.00%   0.000s    93.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    93.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    93.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    93.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    93.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    93.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    93.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    93.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    93.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    93.00s   run (dlio_benchmark/main.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9400
+[2KGIL: 99.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 11.00%  11.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  6.00%  21.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K  4.00%   4.00%   13.97s    15.04s   join (posixpath.py)
+[2K  1.00%  22.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K 75.00%  75.00%   0.750s    0.750s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  3.00%   3.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  0.00%   2.00%   0.000s    0.020s   findsource (inspect.py)
+[2K  0.00%  22.00%   0.000s    93.22s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00%  75.00%   0.000s    0.750s   new_init (dlio_profiler/logger.py)
+[2K  0.00%   3.00%   0.000s    0.030s   getframeinfo (inspect.py)
+[2K  0.00%   3.00%   0.000s    0.030s   init_loader (dlio_benchmark/framework/frame
+[2K  0.00%   3.00%   0.000s    0.030s   getouterframes (inspect.py)
+[2K  0.00%   3.00%   0.000s    0.030s   _find_and_load (<frozen importlib._bootstra
+[2K  0.00%   3.00%   0.000s    0.030s   get_loader (dlio_benchmark/data_loader/data
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9500
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K100.00% 100.00%    1.75s     1.75s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.020s   findsource (inspect.py)
+[2K  0.00%   0.00%   0.000s    93.22s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     1.75s   new_init (dlio_profiler/logger.py)
+[2K  0.00%   0.00%   0.000s    0.030s   getframeinfo (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   init_loader (dlio_benchmark/framework/frame
+[2K  0.00%   0.00%   0.000s    0.030s   getouterframes (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   _find_and_load (<frozen importlib._bootstra
+[2K  0.00%   0.00%   0.000s    0.030s   get_loader (dlio_benchmark/data_loader/data
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9600
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K100.00% 100.00%    2.75s     2.75s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.020s   findsource (inspect.py)
+[2K  0.00%   0.00%   0.000s    93.22s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     2.75s   new_init (dlio_profiler/logger.py)
+[2K  0.00%   0.00%   0.000s    0.030s   getframeinfo (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   init_loader (dlio_benchmark/framework/frame
+[2K  0.00%   0.00%   0.000s    0.030s   getouterframes (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   _find_and_load (<frozen importlib._bootstra
+[2K  0.00%   0.00%   0.000s    0.030s   get_loader (dlio_benchmark/data_loader/data
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9700
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K100.00% 100.00%    3.75s     3.75s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.020s   findsource (inspect.py)
+[2K  0.00%   0.00%   0.000s    93.22s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     3.75s   new_init (dlio_profiler/logger.py)
+[2K  0.00%   0.00%   0.000s    0.030s   getframeinfo (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   init_loader (dlio_benchmark/framework/frame
+[2K  0.00%   0.00%   0.000s    0.030s   getouterframes (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   _find_and_load (<frozen importlib._bootstra
+[2K  0.00%   0.00%   0.000s    0.030s   get_loader (dlio_benchmark/data_loader/data
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9800
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K100.00% 100.00%    4.75s     4.75s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.020s   findsource (inspect.py)
+[2K  0.00%   0.00%   0.000s    93.22s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     4.75s   new_init (dlio_profiler/logger.py)
+[2K  0.00%   0.00%   0.000s    0.030s   getframeinfo (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   init_loader (dlio_benchmark/framework/frame
+[2K  0.00%   0.00%   0.000s    0.030s   getouterframes (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   _find_and_load (<frozen importlib._bootstra
+[2K  0.00%   0.00%   0.000s    0.030s   get_loader (dlio_benchmark/data_loader/data
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 9900
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K100.00% 100.00%    5.75s     5.75s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.020s   findsource (inspect.py)
+[2K  0.00%   0.00%   0.000s    93.22s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     5.75s   new_init (dlio_profiler/logger.py)
+[2K  0.00%   0.00%   0.000s    0.030s   getframeinfo (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   init_loader (dlio_benchmark/framework/frame
+[2K  0.00%   0.00%   0.000s    0.030s   getouterframes (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   _find_and_load (<frozen importlib._bootstra
+[2K  0.00%   0.00%   0.000s    0.030s   get_loader (dlio_benchmark/data_loader/data
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10000
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K100.00% 100.00%    6.75s     6.75s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.020s   findsource (inspect.py)
+[2K  0.00%   0.00%   0.000s    93.22s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     6.75s   new_init (dlio_profiler/logger.py)
+[2K  0.00%   0.00%   0.000s    0.030s   getframeinfo (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   init_loader (dlio_benchmark/framework/frame
+[2K  0.00%   0.00%   0.000s    0.030s   getouterframes (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   _find_and_load (<frozen importlib._bootstra
+[2K  0.00%   0.00%   0.000s    0.030s   get_loader (dlio_benchmark/data_loader/data
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10100
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K100.00% 100.00%    7.75s     7.75s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.020s   findsource (inspect.py)
+[2K  0.00%   0.00%   0.000s    93.22s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     7.75s   new_init (dlio_profiler/logger.py)
+[2K  0.00%   0.00%   0.000s    0.030s   getframeinfo (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   init_loader (dlio_benchmark/framework/frame
+[2K  0.00%   0.00%   0.000s    0.030s   getouterframes (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   _find_and_load (<frozen importlib._bootstra
+[2K  0.00%   0.00%   0.000s    0.030s   get_loader (dlio_benchmark/data_loader/data
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10200
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K100.00% 100.00%    8.75s     8.75s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.020s   findsource (inspect.py)
+[2K  0.00%   0.00%   0.000s    93.22s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     8.75s   new_init (dlio_profiler/logger.py)
+[2K  0.00%   0.00%   0.000s    0.030s   getframeinfo (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   init_loader (dlio_benchmark/framework/frame
+[2K  0.00%   0.00%   0.000s    0.030s   getouterframes (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   _find_and_load (<frozen importlib._bootstra
+[2K  0.00%   0.00%   0.000s    0.030s   get_loader (dlio_benchmark/data_loader/data
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10300
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K100.00% 100.00%    9.75s     9.75s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.020s   findsource (inspect.py)
+[2K  0.00%   0.00%   0.000s    93.22s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     9.75s   new_init (dlio_profiler/logger.py)
+[2K  0.00%   0.00%   0.000s    0.030s   getframeinfo (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   init_loader (dlio_benchmark/framework/frame
+[2K  0.00%   0.00%   0.000s    0.030s   getouterframes (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   _find_and_load (<frozen importlib._bootstra
+[2K  0.00%   0.00%   0.000s    0.030s   get_loader (dlio_benchmark/data_loader/data
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10400
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K100.00% 100.00%   10.75s    10.75s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.020s   findsource (inspect.py)
+[2K  0.00%   0.00%   0.000s    93.22s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    10.75s   new_init (dlio_profiler/logger.py)
+[2K  0.00%   0.00%   0.000s    0.030s   getframeinfo (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   init_loader (dlio_benchmark/framework/frame
+[2K  0.00%   0.00%   0.000s    0.030s   getouterframes (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   _find_and_load (<frozen importlib._bootstra
+[2K  0.00%   0.00%   0.000s    0.030s   get_loader (dlio_benchmark/data_loader/data
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10500
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K100.00% 100.00%   11.75s    11.75s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.020s   findsource (inspect.py)
+[2K  0.00%   0.00%   0.000s    93.22s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    11.75s   new_init (dlio_profiler/logger.py)
+[2K  0.00%   0.00%   0.000s    0.030s   getframeinfo (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   init_loader (dlio_benchmark/framework/frame
+[2K  0.00%   0.00%   0.000s    0.030s   getouterframes (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   _find_and_load (<frozen importlib._bootstra
+[2K  0.00%   0.00%   0.000s    0.030s   get_loader (dlio_benchmark/data_loader/data
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10600
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K100.00% 100.00%   12.75s    12.75s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.020s   findsource (inspect.py)
+[2K  0.00%   0.00%   0.000s    93.22s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    12.75s   new_init (dlio_profiler/logger.py)
+[2K  0.00%   0.00%   0.000s    0.030s   getframeinfo (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   init_loader (dlio_benchmark/framework/frame
+[2K  0.00%   0.00%   0.000s    0.030s   getouterframes (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   _find_and_load (<frozen importlib._bootstra
+[2K  0.00%   0.00%   0.000s    0.030s   get_loader (dlio_benchmark/data_loader/data
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10700
+[2KGIL: 99.00%, Active: 99.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K 99.00%  99.00%   13.74s    13.74s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.020s   findsource (inspect.py)
+[2K  0.00%   0.00%   0.000s    93.22s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00%  99.00%   0.000s    13.74s   new_init (dlio_profiler/logger.py)
+[2K  0.00%   0.00%   0.000s    0.030s   getframeinfo (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   init_loader (dlio_benchmark/framework/frame
+[2K  0.00%   0.00%   0.000s    0.030s   getouterframes (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   _find_and_load (<frozen importlib._bootstra
+[2K  0.00%   0.00%   0.000s    0.030s   get_loader (dlio_benchmark/data_loader/data
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10800
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K100.00% 100.00%   14.74s    14.74s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.020s   findsource (inspect.py)
+[2K  0.00%   0.00%   0.000s    93.22s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    14.74s   new_init (dlio_profiler/logger.py)
+[2K  0.00%   0.00%   0.000s    0.030s   getframeinfo (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   init_loader (dlio_benchmark/framework/frame
+[2K  0.00%   0.00%   0.000s    0.030s   getouterframes (inspect.py)
+[2K  0.00%   0.00%   0.000s    0.030s   _find_and_load (<frozen importlib._bootstra
+[2K  0.00%   0.00%   0.000s    0.030s   get_loader (dlio_benchmark/data_loader/data
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10900
+[2KGIL: 41.00%, Active: 85.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K 29.00%  29.00%   15.03s    15.03s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K 43.00%  43.00%   0.430s    0.430s   __iter__ (torch/utils/data/sampler.py)
+[2K  6.00%  10.00%   0.060s    0.100s   _launch (multiprocessing/popen_fork.py)
+[2K  4.00%   4.00%   0.040s    0.040s   __init__ (multiprocessing/util.py)
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  1.00%   1.00%   0.010s    0.010s   is_available (torch/cuda/__init__.py)
+[2K  1.00%  31.00%   0.010s    15.05s   read (dlio_benchmark/data_loader/torch_data
+[2K  1.00%   1.00%   0.010s    0.010s   checkcache (linecache.py)
+[2K  0.00%  85.00%   0.000s    108.8s   decorated_main (hydra/main.py)
+[2K  0.00%   1.00%   0.000s    0.010s   extract (traceback.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 11000
+[2KGIL: 0.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K  0.00%   0.00%   15.03s    15.03s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K100.00% 100.00%    1.43s     1.43s   __iter__ (torch/utils/data/sampler.py)
+[2K  0.00%   0.00%   0.060s    0.100s   _launch (multiprocessing/popen_fork.py)
+[2K  0.00%   0.00%   0.040s    0.040s   __init__ (multiprocessing/util.py)
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   is_available (torch/cuda/__init__.py)
+[2K  0.00%   0.00%   0.010s    15.05s   read (dlio_benchmark/data_loader/torch_data
+[2K  0.00%   0.00%   0.010s    0.010s   checkcache (linecache.py)
+[2K  0.00% 100.00%   0.000s    109.8s   decorated_main (hydra/main.py)
+[2K  0.00%   0.00%   0.000s    0.010s   extract (traceback.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 11100
+[2KGIL: 52.00%, Active: 98.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K  0.00%   0.00%   15.03s    15.03s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K 98.00%  98.00%    2.41s     2.41s   __iter__ (torch/utils/data/sampler.py)
+[2K  0.00%   0.00%   0.060s    0.100s   _launch (multiprocessing/popen_fork.py)
+[2K  0.00%   0.00%   0.040s    0.040s   __init__ (multiprocessing/util.py)
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    0.010s   is_available (torch/cuda/__init__.py)
+[2K  0.00%   0.00%   0.010s    15.05s   read (dlio_benchmark/data_loader/torch_data
+[2K  0.00%   0.00%   0.010s    0.010s   checkcache (linecache.py)
+[2K  0.00%  98.00%   0.000s    110.8s   decorated_main (hydra/main.py)
+[2K  0.00%   0.00%   0.000s    0.010s   extract (traceback.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 11200
+[2KGIL: 89.00%, Active: 89.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K  0.00%   0.00%   15.03s    15.03s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K 88.00%  89.00%    3.29s     3.30s   __iter__ (torch/utils/data/sampler.py)
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.060s    0.100s   _launch (multiprocessing/popen_fork.py)
+[2K  0.00%   0.00%   0.040s    0.040s   __init__ (multiprocessing/util.py)
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  0.00%   0.00%   0.010s    15.05s   read (dlio_benchmark/data_loader/torch_data
+[2K  0.00%   0.00%   0.010s    0.010s   is_available (torch/cuda/__init__.py)
+[2K  1.00%   1.00%   0.010s    0.010s   handler (torch/utils/data/_utils/signal_han
+[2K  0.00%   0.00%   0.010s    0.010s   checkcache (linecache.py)
+[2K  0.00%   0.00%   0.000s    0.030s   get_loader (dlio_benchmark/data_loader/data
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 11300
+[2KGIL: 42.00%, Active: 42.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   38.52s    38.52s   normpath (posixpath.py)
+[2K  0.00%   0.00%   21.89s    81.53s   abspath (posixpath.py)
+[2K  0.00%   0.00%   15.03s    15.03s   __init__ (dlio_benchmark/data_loader/torch_
+[2K  0.00%   0.00%   13.97s    15.04s   join (posixpath.py)
+[2K  0.00%   0.00%   11.69s    93.22s   get_global_map_index (dlio_benchmark/utils/
+[2K  0.00%   0.00%    4.67s     6.08s   isabs (posixpath.py)
+[2K 36.00%  38.00%    3.65s     3.68s   __iter__ (torch/utils/data/sampler.py)
+[2K  0.00%   0.00%    2.48s     2.48s   _get_sep (posixpath.py)
+[2K  0.00%   0.00%   0.060s    0.100s   _launch (multiprocessing/popen_fork.py)
+[2K  0.00%   0.00%   0.040s    0.040s   __init__ (multiprocessing/util.py)
+[2K  0.00%   0.00%   0.030s    0.030s   getmodule (inspect.py)
+[2K  2.00%   2.00%   0.030s    0.030s   handler (torch/utils/data/_utils/signal_han
+[2K  0.00%   0.00%   0.010s    15.05s   read (dlio_benchmark/data_loader/torch_data
+[2K  0.00%   0.00%   0.010s    0.010s   is_available (torch/cuda/__init__.py)
+[2K  1.00%   1.00%   0.010s    0.010s   _process_class (dataclasses.py)
+[2K  0.00%   0.00%   0.010s    0.010s   checkcache (linecache.py)
+[2K
+[2KPress Control-C to quit, or ? for help.
+
+process 5802 ended

@@ -1,0 +1,372 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 10
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K100.00% 100.00%   0.100s    0.100s   build_sample_map_iter (dlio_benchmark/utils
+[2K  0.00% 100.00%   0.000s    0.100s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    0.100s   run_job (hydra/core/utils.py)
+[2K  0.00% 100.00%   0.000s    0.100s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    0.100s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    0.100s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    0.100s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    0.100s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    0.100s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    0.100s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    0.100s   _run_hydra (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    0.100s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    0.100s   run (dlio_benchmark/main.py)
+[2K
+[2K
+[2K
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 100
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K100.00% 100.00%    1.00s     1.00s   build_sample_map_iter (dlio_benchmark/utils
+[2K  0.00% 100.00%   0.000s     1.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     1.00s   run_job (hydra/core/utils.py)
+[2K  0.00% 100.00%   0.000s     1.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     1.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     1.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     1.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s     1.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s     1.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     1.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     1.00s   _run_hydra (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     1.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s     1.00s   run (dlio_benchmark/main.py)
+[2K
+[2K
+[2K
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 200
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K100.00% 100.00%    2.00s     2.00s   build_sample_map_iter (dlio_benchmark/utils
+[2K  0.00% 100.00%   0.000s     2.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     2.00s   run_job (hydra/core/utils.py)
+[2K  0.00% 100.00%   0.000s     2.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     2.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     2.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     2.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s     2.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s     2.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     2.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     2.00s   _run_hydra (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     2.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s     2.00s   run (dlio_benchmark/main.py)
+[2K
+[2K
+[2K
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 300
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K100.00% 100.00%    3.00s     3.00s   build_sample_map_iter (dlio_benchmark/utils
+[2K  0.00% 100.00%   0.000s     3.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     3.00s   run_job (hydra/core/utils.py)
+[2K  0.00% 100.00%   0.000s     3.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     3.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     3.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     3.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s     3.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s     3.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     3.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     3.00s   _run_hydra (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     3.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s     3.00s   run (dlio_benchmark/main.py)
+[2K
+[2K
+[2K
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 400
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K100.00% 100.00%    4.00s     4.00s   build_sample_map_iter (dlio_benchmark/utils
+[2K  0.00% 100.00%   0.000s     4.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     4.00s   run_job (hydra/core/utils.py)
+[2K  0.00% 100.00%   0.000s     4.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     4.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     4.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     4.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s     4.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s     4.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     4.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     4.00s   _run_hydra (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     4.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s     4.00s   run (dlio_benchmark/main.py)
+[2K
+[2K
+[2K
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 500
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K100.00% 100.00%    5.00s     5.00s   build_sample_map_iter (dlio_benchmark/utils
+[2K  0.00% 100.00%   0.000s     5.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     5.00s   run_job (hydra/core/utils.py)
+[2K  0.00% 100.00%   0.000s     5.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     5.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     5.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     5.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s     5.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s     5.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     5.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     5.00s   _run_hydra (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     5.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s     5.00s   run (dlio_benchmark/main.py)
+[2K
+[2K
+[2K
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 600
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K100.00% 100.00%    6.00s     6.00s   build_sample_map_iter (dlio_benchmark/utils
+[2K  0.00% 100.00%   0.000s     6.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     6.00s   run_job (hydra/core/utils.py)
+[2K  0.00% 100.00%   0.000s     6.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     6.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     6.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     6.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s     6.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s     6.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     6.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     6.00s   _run_hydra (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     6.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s     6.00s   run (dlio_benchmark/main.py)
+[2K
+[2K
+[2K
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 700
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K100.00% 100.00%    7.00s     7.00s   build_sample_map_iter (dlio_benchmark/utils
+[2K  0.00% 100.00%   0.000s     7.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     7.00s   run_job (hydra/core/utils.py)
+[2K  0.00% 100.00%   0.000s     7.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     7.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     7.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     7.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s     7.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s     7.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     7.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     7.00s   _run_hydra (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     7.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s     7.00s   run (dlio_benchmark/main.py)
+[2K
+[2K
+[2K
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 800
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K100.00% 100.00%    8.00s     8.00s   build_sample_map_iter (dlio_benchmark/utils
+[2K  0.00% 100.00%   0.000s     8.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     8.00s   run_job (hydra/core/utils.py)
+[2K  0.00% 100.00%   0.000s     8.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     8.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     8.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     8.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s     8.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s     8.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     8.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     8.00s   _run_hydra (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     8.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s     8.00s   run (dlio_benchmark/main.py)
+[2K
+[2K
+[2K
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 900
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K100.00% 100.00%    9.00s     9.00s   build_sample_map_iter (dlio_benchmark/utils
+[2K  0.00% 100.00%   0.000s     9.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     9.00s   run_job (hydra/core/utils.py)
+[2K  0.00% 100.00%   0.000s     9.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     9.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     9.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s     9.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s     9.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s     9.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s     9.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     9.00s   _run_hydra (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s     9.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s     9.00s   run (dlio_benchmark/main.py)
+[2K
+[2K
+[2K
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1000
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K100.00% 100.00%   10.00s    10.00s   build_sample_map_iter (dlio_benchmark/utils
+[2K  0.00% 100.00%   0.000s    10.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    10.00s   run_job (hydra/core/utils.py)
+[2K  0.00% 100.00%   0.000s    10.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    10.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    10.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    10.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    10.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    10.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    10.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    10.00s   _run_hydra (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    10.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    10.00s   run (dlio_benchmark/main.py)
+[2K
+[2K
+[2K
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1100
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K100.00% 100.00%   11.00s    11.00s   build_sample_map_iter (dlio_benchmark/utils
+[2K  0.00% 100.00%   0.000s    11.00s   _run_app (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    11.00s   run_job (hydra/core/utils.py)
+[2K  0.00% 100.00%   0.000s    11.00s   <module> (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    11.00s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    11.00s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00% 100.00%   0.000s    11.00s   decorated_main (hydra/main.py)
+[2K  0.00% 100.00%   0.000s    11.00s   wrapper (dlio_profiler/logger.py)
+[2K  0.00% 100.00%   0.000s    11.00s   main (dlio_benchmark/main.py)
+[2K  0.00% 100.00%   0.000s    11.00s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    11.00s   _run_hydra (hydra/_internal/utils.py)
+[2K  0.00% 100.00%   0.000s    11.00s   run (hydra/_internal/hydra.py)
+[2K  0.00% 100.00%   0.000s    11.00s   run (dlio_benchmark/main.py)
+[2K
+[2K
+[2K
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1200
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K 90.00%  90.00%   11.90s    11.90s   build_sample_map_iter (dlio_benchmark/utils
+[2K  0.00%  90.00%   0.000s    11.90s   _run_app (hydra/_internal/utils.py)
+[2K  0.00%  90.00%   0.000s    11.90s   run_job (hydra/core/utils.py)
+[2K  0.00%  90.00%   0.000s    11.90s   <module> (dlio_benchmark/main.py)
+[2K  0.00%  90.00%   0.000s    11.90s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00%  90.00%   0.000s    11.90s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00%  90.00%   0.000s    11.90s   decorated_main (hydra/main.py)
+[2K  0.00%  90.00%   0.000s    11.90s   wrapper (dlio_profiler/logger.py)
+[2K  0.00%  90.00%   0.000s    11.90s   main (dlio_benchmark/main.py)
+[2K  0.00%  90.00%   0.000s    11.90s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00%  90.00%   0.000s    11.90s   _run_hydra (hydra/_internal/utils.py)
+[2K  0.00%  90.00%   0.000s    11.90s   run (hydra/_internal/hydra.py)
+[2K  0.00%  90.00%   0.000s    11.90s   run (dlio_benchmark/main.py)
+[2K
+[2K
+[2K
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1300
+[2KGIL: 100.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   11.90s    11.90s   build_sample_map_iter (dlio_benchmark/utils
+[2K  0.00%   0.00%   0.000s    11.90s   _run_app (hydra/_internal/utils.py)
+[2K  0.00%   0.00%   0.000s    11.90s   run_job (hydra/core/utils.py)
+[2K  0.00%   0.00%   0.000s    11.90s   <module> (dlio_benchmark/main.py)
+[2K  0.00%   0.00%   0.000s    11.90s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00%   0.00%   0.000s    11.90s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00%   0.00%   0.000s    11.90s   decorated_main (hydra/main.py)
+[2K  0.00%   0.00%   0.000s    11.90s   wrapper (dlio_profiler/logger.py)
+[2K  0.00%   0.00%   0.000s    11.90s   main (dlio_benchmark/main.py)
+[2K  0.00%   0.00%   0.000s    11.90s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00%   0.00%   0.000s    11.90s   _run_hydra (hydra/_internal/utils.py)
+[2K  0.00%   0.00%   0.000s    11.90s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    11.90s   run (dlio_benchmark/main.py)
+[2K
+[2K
+[2K
+[2K
+[2KPress Control-C to quit, or ? for help.
+[H[2KCollecting samples from 'python3 src/dlio_benchmark/dlio_benchmark/main.py workload=bert ++workload.workflow.generate_data=False ++workload.workflow.train=True' (python v3.10.13)
+[2KTotal Samples 1400
+[2KGIL: 99.00%, Active: 100.00%, Threads: 1
+[2K
+[2K  %Own   %Total  OwnTime  TotalTime  Function (filename)                        
+[2K  0.00%   0.00%   11.90s    11.90s   build_sample_map_iter (dlio_benchmark/utils
+[2K  0.00%   0.00%   0.000s    11.90s   _run_app (hydra/_internal/utils.py)
+[2K  0.00%   0.00%   0.000s    11.90s   run_job (hydra/core/utils.py)
+[2K  0.00%   0.00%   0.000s    11.90s   <module> (dlio_benchmark/main.py)
+[2K  0.00%   0.00%   0.000s    11.90s   run_and_report (hydra/_internal/utils.py)
+[2K  0.00%   0.00%   0.000s    11.90s   reconfigure (dlio_benchmark/utils/config.py
+[2K  0.00%   0.00%   0.000s    11.90s   decorated_main (hydra/main.py)
+[2K  0.00%   0.00%   0.000s    11.90s   wrapper (dlio_profiler/logger.py)
+[2K  0.00%   0.00%   0.000s    11.90s   main (dlio_benchmark/main.py)
+[2K  0.00%   0.00%   0.000s    11.90s   <lambda> (hydra/_internal/utils.py)
+[2K  0.00%   0.00%   0.000s    11.90s   _run_hydra (hydra/_internal/utils.py)
+[2K  0.00%   0.00%   0.000s    11.90s   run (hydra/_internal/hydra.py)
+[2K  0.00%   0.00%   0.000s    11.90s   run (dlio_benchmark/main.py)
+[2K
+[2K
+[2K
+[2K
+[2KPress Control-C to quit, or ? for help.
+
+process 8870 ended

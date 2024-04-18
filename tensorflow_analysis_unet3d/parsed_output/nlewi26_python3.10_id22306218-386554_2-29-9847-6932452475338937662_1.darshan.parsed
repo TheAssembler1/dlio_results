@@ -1,0 +1,976 @@
+# darshan log version: 3.41
+# compression method: ZLIB
+# exe: /global/homes/n/nlewi26/.conda/envs/dlio_env/bin/python3.10 /global/common/software/m2621/nlewi26/.conda/envs/dlio_env/bin/dlio_benchmark workload=tensorflow_unet3d ++workload.workflow.generate_data=False ++workload.workflow.train=True 
+# uid: 104476
+# jobid: 22306218
+# start_time: 1709203447
+# start_time_asci: Thu Feb 29 02:44:07 2024
+# end_time: 1709203522
+# end_time_asci: Thu Feb 29 02:45:22 2024
+# nprocs: 1
+# run time: 75.0821
+# metadata: lib_ver = 3.4.4
+# metadata: h = romio_no_indep_rw=true;cb_nodes=4
+
+# log file regions
+# -------------------------------------------------------
+# header: 1328 bytes (uncompressed)
+# job data: 691 bytes (compressed)
+# record table: 199 bytes (compressed)
+# POSIX module: 640 bytes (compressed), ver=4
+# LUSTRE module: 130 bytes (compressed), ver=1
+# DXT_POSIX module: 41533 bytes (compressed), ver=1
+
+# mounted file systems (mount point and fs type)
+# -------------------------------------------------------
+# mount entry:	/var/opt/cray/analytics/analytics_image/base	squashfs
+# mount entry:	/run/credentials/systemd-sysusers.service	ramfs
+# mount entry:	/var/opt/cray/pe/pe_images/nvidia-23.12	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/nvidia-23.03	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/nvidia-23.02	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/nvidia-23.09	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/nvidia-23.05	squashfs
+# mount entry:	/etc/opt/cray/analytics/admin-analytics	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/intel-23.12	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/intel-23.03	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/intel-23.02	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/intel-23.09	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/intel-23.05	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/base-23.12	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/aocc-23.12	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/base-23.03	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/aocc-23.03	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/base-23.02	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/aocc-23.02	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/base-23.09	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/aocc-23.09	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/base-23.05	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/aocc-23.05	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/nvhpc	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/intel	squashfs
+# mount entry:	/var/opt/cray/pe/pe_images/aocc	squashfs
+# mount entry:	/sys/firmware/efi/efivars	efivarfs
+# mount entry:	/sys/kernel/debug/tracing	tracefs
+# mount entry:	/opt/cray/analytics/bin	squashfs
+# mount entry:	/opt/cray/chapel/1.30.0	squashfs
+# mount entry:	/sys/kernel/tracing	tracefs
+# mount entry:	/opt/nvidia/hpc_sdk	overlay
+# mount entry:	/sys/kernel/config	configfs
+# mount entry:	/.rootfs_lower_ro	squashfs
+# mount entry:	/usr/share/lmod	overlay
+# mount entry:	/sys/fs/cgroup	cgroup2
+# mount entry:	/sys/fs/pstore	pstore
+# mount entry:	/global/common	dvs
+# mount entry:	/dvs_rw/common	dvs
+# mount entry:	/dvs_ro/common	dvs
+# mount entry:	/scratch/cvmfs	ext4
+# mount entry:	/run/cxi/cxi0	fuse
+# mount entry:	/opt/cray/pe	overlay
+# mount entry:	/dev/mqueue	mqueue
+# mount entry:	/sys/fs/bpf	bpf
+# mount entry:	/global/dna	dvs
+# mount entry:	/global/cfs	dvs
+# mount entry:	/dvs_rw/dna	dvs
+# mount entry:	/dvs_rw/cfs	dvs
+# mount entry:	/dvs_ro/dna	dvs
+# mount entry:	/dvs_ro/cfs	dvs
+# mount entry:	/opt/intel	overlay
+# mount entry:	/global/u1	dvs
+# mount entry:	/global/u2	dvs
+# mount entry:	/dvs_rw/u1	dvs
+# mount entry:	/dvs_rw/u2	dvs
+# mount entry:	/dvs_ro/u1	dvs
+# mount entry:	/dvs_ro/u2	dvs
+# mount entry:	/pscratch	lustre
+# mount entry:	/opt/AMD	overlay
+# mount entry:	/dvs_rw	overlay
+# mount entry:	/dev	devtmpfs
+# mount entry:	/lus	lustre
+# mount entry:	/	overlay
+
+# description of columns:
+#   <module>: module responsible for this I/O record.
+#   <rank>: MPI rank.  -1 indicates that the file is shared
+#      across all processes and statistics are aggregated.
+#   <record id>: hash of the record's file path
+#   <counter name> and <counter value>: statistical counters.
+#      A value of -1 indicates that Darshan could not monitor
+#      that counter, and its value should be ignored.
+#   <file name>: full file path for the record.
+#   <mount pt>: mount point that the file resides on.
+#   <fs type>: type of file system that the file resides on.
+
+# *******************************************************
+# POSIX module data
+# *******************************************************
+
+# description of POSIX counters:
+#   POSIX_*: posix operation counts.
+#   READS,WRITES,OPENS,SEEKS,STATS,MMAPS,SYNCS,FILENOS,DUPS are types of operations.
+#   POSIX_RENAME_SOURCES/TARGETS: total count file was source or target of a rename operation
+#   POSIX_RENAMED_FROM: Darshan record ID of the first rename source, if file was a rename target
+#   POSIX_MODE: mode that file was opened in.
+#   POSIX_BYTES_*: total bytes read and written.
+#   POSIX_MAX_BYTE_*: highest offset byte read and written.
+#   POSIX_CONSEC_*: number of exactly adjacent reads and writes.
+#   POSIX_SEQ_*: number of reads and writes from increasing offsets.
+#   POSIX_RW_SWITCHES: number of times access alternated between read and write.
+#   POSIX_*_ALIGNMENT: memory and file alignment.
+#   POSIX_*_NOT_ALIGNED: number of reads and writes that were not aligned.
+#   POSIX_MAX_*_TIME_SIZE: size of the slowest read and write operations.
+#   POSIX_SIZE_*_*: histogram of read and write access sizes.
+#   POSIX_STRIDE*_STRIDE: the four most common strides detected.
+#   POSIX_STRIDE*_COUNT: count of the four most common strides.
+#   POSIX_ACCESS*_ACCESS: the four most common access sizes.
+#   POSIX_ACCESS*_COUNT: count of the four most common access sizes.
+#   POSIX_*_RANK: rank of the processes that were the fastest and slowest at I/O (for shared files).
+#   POSIX_*_RANK_BYTES: bytes transferred by the fastest and slowest ranks (for shared files).
+#   POSIX_F_*_START_TIMESTAMP: timestamp of first open/read/write/close.
+#   POSIX_F_*_END_TIMESTAMP: timestamp of last open/read/write/close.
+#   POSIX_F_READ/WRITE/META_TIME: cumulative time spent in read, write, or metadata operations.
+#   POSIX_F_MAX_*_TIME: duration of the slowest read and write operations.
+#   POSIX_F_*_RANK_TIME: fastest and slowest I/O time for a single rank (for shared files).
+#   POSIX_F_VARIANCE_RANK_*: variance of total I/O time and bytes moved for all ranks (for shared files).
+
+# WARNING: POSIX_OPENS counter includes both POSIX_FILENOS and POSIX_DUPS counts
+
+# WARNING: POSIX counters related to file offsets may be incorrect if a file is simultaneously accessed by both POSIX and STDIO (e.g., using fileno())
+# 	- Affected counters include: MAX_BYTE_{READ|WRITTEN}, CONSEC_{READS|WRITES}, SEQ_{READS|WRITES}, {MEM|FILE}_NOT_ALIGNED, STRIDE*_STRIDE
+
+#<module>	<rank>	<record id>	<counter>	<value>	<file name>	<mount pt>	<fs type>
+POSIX	0	975919914393531307	POSIX_OPENS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_FILENOS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_DUPS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_READS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SEEKS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_STATS	2	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_MMAPS	-1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_FSYNCS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_FDSYNCS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_RENAME_SOURCES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_RENAME_TARGETS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_RENAMED_FROM	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_MODE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_BYTES_READ	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_BYTES_WRITTEN	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_MAX_BYTE_READ	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_MAX_BYTE_WRITTEN	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_CONSEC_READS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_CONSEC_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SEQ_READS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SEQ_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_RW_SWITCHES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_MEM_NOT_ALIGNED	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_MEM_ALIGNMENT	8	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_FILE_NOT_ALIGNED	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_FILE_ALIGNMENT	1048576	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_MAX_READ_TIME_SIZE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_MAX_WRITE_TIME_SIZE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_READ_0_100	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_READ_100_1K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_READ_1K_10K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_READ_10K_100K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_READ_100K_1M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_READ_1M_4M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_READ_4M_10M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_READ_10M_100M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_READ_100M_1G	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_READ_1G_PLUS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_WRITE_0_100	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_WRITE_100_1K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_WRITE_1K_10K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_WRITE_10K_100K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_WRITE_100K_1M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_WRITE_1M_4M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_WRITE_4M_10M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_WRITE_10M_100M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_WRITE_100M_1G	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SIZE_WRITE_1G_PLUS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_STRIDE1_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_STRIDE2_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_STRIDE3_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_STRIDE4_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_STRIDE1_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_STRIDE2_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_STRIDE3_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_STRIDE4_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_ACCESS1_ACCESS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_ACCESS2_ACCESS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_ACCESS3_ACCESS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_ACCESS4_ACCESS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_ACCESS1_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_ACCESS2_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_ACCESS3_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_ACCESS4_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_FASTEST_RANK	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_FASTEST_RANK_BYTES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SLOWEST_RANK	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_SLOWEST_RANK_BYTES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_F_OPEN_START_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_F_READ_START_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_F_WRITE_START_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_F_CLOSE_START_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_F_OPEN_END_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_F_READ_END_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_F_WRITE_END_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_F_CLOSE_END_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_F_READ_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_F_WRITE_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_F_META_TIME	0.000318	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_F_MAX_READ_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_F_MAX_WRITE_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_F_FASTEST_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_F_SLOWEST_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_F_VARIANCE_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	975919914393531307	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_025_of_192.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_OPENS	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_FILENOS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_DUPS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_READS	590	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SEEKS	8710	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_STATS	20	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_MMAPS	-1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_FSYNCS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_FDSYNCS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_RENAME_SOURCES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_RENAME_TARGETS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_RENAMED_FROM	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_MODE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_BYTES_READ	2282881150	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_BYTES_WRITTEN	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_MAX_BYTE_READ	224093622	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_MAX_BYTE_WRITTEN	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_CONSEC_READS	540	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_CONSEC_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SEQ_READS	550	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SEQ_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_RW_SWITCHES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_MEM_NOT_ALIGNED	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_MEM_ALIGNMENT	8	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_FILE_NOT_ALIGNED	40	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_FILE_ALIGNMENT	1048576	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_MAX_READ_TIME_SIZE	4194304	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_MAX_WRITE_TIME_SIZE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_READ_0_100	30	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_READ_100_1K	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_READ_1K_10K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_READ_10K_100K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_READ_100K_1M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_READ_1M_4M	550	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_READ_4M_10M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_READ_10M_100M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_READ_100M_1G	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_READ_1G_PLUS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_WRITE_0_100	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_WRITE_100_1K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_WRITE_1K_10K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_WRITE_10K_100K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_WRITE_100K_1M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_WRITE_1M_4M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_WRITE_4M_10M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_WRITE_10M_100M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_WRITE_100M_1G	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SIZE_WRITE_1G_PLUS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_STRIDE1_STRIDE	219899297	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_STRIDE2_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_STRIDE3_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_STRIDE4_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_STRIDE1_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_STRIDE2_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_STRIDE3_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_STRIDE4_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_ACCESS1_ACCESS	4194304	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_ACCESS2_ACCESS	1795511	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_ACCESS3_ACCESS	124	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_ACCESS4_ACCESS	42	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_ACCESS1_COUNT	540	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_ACCESS2_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_ACCESS3_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_ACCESS4_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_FASTEST_RANK	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_FASTEST_RANK_BYTES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SLOWEST_RANK	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_SLOWEST_RANK_BYTES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_F_OPEN_START_TIMESTAMP	35.479651	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_F_READ_START_TIMESTAMP	35.480347	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_F_WRITE_START_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_F_CLOSE_START_TIMESTAMP	35.987495	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_F_OPEN_END_TIMESTAMP	71.456810	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_F_READ_END_TIMESTAMP	71.697636	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_F_WRITE_END_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_F_CLOSE_END_TIMESTAMP	71.700904	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_F_READ_TIME	0.503260	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_F_WRITE_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_F_META_TIME	0.016265	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_F_MAX_READ_TIME	0.016949	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_F_MAX_WRITE_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_F_FASTEST_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_F_SLOWEST_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_F_VARIANCE_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	11340283699496413533	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_OPENS	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_FILENOS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_DUPS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_READS	590	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SEEKS	8710	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_STATS	20	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_MMAPS	-1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_FSYNCS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_FDSYNCS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_RENAME_SOURCES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_RENAME_TARGETS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_RENAMED_FROM	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_MODE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_BYTES_READ	2282881150	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_BYTES_WRITTEN	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_MAX_BYTE_READ	224093622	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_MAX_BYTE_WRITTEN	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_CONSEC_READS	540	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_CONSEC_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SEQ_READS	550	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SEQ_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_RW_SWITCHES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_MEM_NOT_ALIGNED	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_MEM_ALIGNMENT	8	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_FILE_NOT_ALIGNED	40	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_FILE_ALIGNMENT	1048576	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_MAX_READ_TIME_SIZE	4194304	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_MAX_WRITE_TIME_SIZE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_READ_0_100	30	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_READ_100_1K	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_READ_1K_10K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_READ_10K_100K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_READ_100K_1M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_READ_1M_4M	550	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_READ_4M_10M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_READ_10M_100M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_READ_100M_1G	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_READ_1G_PLUS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_WRITE_0_100	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_WRITE_100_1K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_WRITE_1K_10K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_WRITE_10K_100K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_WRITE_100K_1M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_WRITE_1M_4M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_WRITE_4M_10M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_WRITE_10M_100M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_WRITE_100M_1G	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SIZE_WRITE_1G_PLUS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_STRIDE1_STRIDE	219899297	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_STRIDE2_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_STRIDE3_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_STRIDE4_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_STRIDE1_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_STRIDE2_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_STRIDE3_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_STRIDE4_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_ACCESS1_ACCESS	4194304	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_ACCESS2_ACCESS	1795511	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_ACCESS3_ACCESS	124	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_ACCESS4_ACCESS	42	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_ACCESS1_COUNT	540	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_ACCESS2_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_ACCESS3_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_ACCESS4_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_FASTEST_RANK	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_FASTEST_RANK_BYTES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SLOWEST_RANK	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_SLOWEST_RANK_BYTES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_F_OPEN_START_TIMESTAMP	35.479742	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_F_READ_START_TIMESTAMP	35.480415	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_F_WRITE_START_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_F_CLOSE_START_TIMESTAMP	35.983755	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_F_OPEN_END_TIMESTAMP	71.456580	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_F_READ_END_TIMESTAMP	71.697495	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_F_WRITE_END_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_F_CLOSE_END_TIMESTAMP	71.699916	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_F_READ_TIME	0.488532	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_F_WRITE_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_F_META_TIME	0.014287	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_F_MAX_READ_TIME	0.015457	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_F_MAX_WRITE_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_F_FASTEST_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_F_SLOWEST_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_F_VARIANCE_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	7193853378186460998	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_OPENS	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_FILENOS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_DUPS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_READS	590	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SEEKS	8710	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_STATS	20	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_MMAPS	-1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_FSYNCS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_FDSYNCS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_RENAME_SOURCES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_RENAME_TARGETS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_RENAMED_FROM	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_MODE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_BYTES_READ	2282881150	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_BYTES_WRITTEN	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_MAX_BYTE_READ	224093622	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_MAX_BYTE_WRITTEN	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_CONSEC_READS	540	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_CONSEC_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SEQ_READS	550	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SEQ_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_RW_SWITCHES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_MEM_NOT_ALIGNED	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_MEM_ALIGNMENT	8	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_FILE_NOT_ALIGNED	40	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_FILE_ALIGNMENT	1048576	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_MAX_READ_TIME_SIZE	4194304	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_MAX_WRITE_TIME_SIZE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_READ_0_100	30	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_READ_100_1K	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_READ_1K_10K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_READ_10K_100K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_READ_100K_1M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_READ_1M_4M	550	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_READ_4M_10M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_READ_10M_100M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_READ_100M_1G	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_READ_1G_PLUS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_WRITE_0_100	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_WRITE_100_1K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_WRITE_1K_10K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_WRITE_10K_100K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_WRITE_100K_1M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_WRITE_1M_4M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_WRITE_4M_10M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_WRITE_10M_100M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_WRITE_100M_1G	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SIZE_WRITE_1G_PLUS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_STRIDE1_STRIDE	219899297	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_STRIDE2_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_STRIDE3_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_STRIDE4_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_STRIDE1_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_STRIDE2_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_STRIDE3_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_STRIDE4_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_ACCESS1_ACCESS	4194304	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_ACCESS2_ACCESS	1795511	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_ACCESS3_ACCESS	124	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_ACCESS4_ACCESS	42	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_ACCESS1_COUNT	540	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_ACCESS2_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_ACCESS3_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_ACCESS4_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_FASTEST_RANK	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_FASTEST_RANK_BYTES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SLOWEST_RANK	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_SLOWEST_RANK_BYTES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_F_OPEN_START_TIMESTAMP	35.479848	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_F_READ_START_TIMESTAMP	35.480443	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_F_WRITE_START_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_F_CLOSE_START_TIMESTAMP	35.990984	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_F_OPEN_END_TIMESTAMP	71.457028	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_F_READ_END_TIMESTAMP	71.696667	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_F_WRITE_END_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_F_CLOSE_END_TIMESTAMP	71.698604	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_F_READ_TIME	0.506579	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_F_WRITE_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_F_META_TIME	0.014475	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_F_MAX_READ_TIME	0.016426	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_F_MAX_WRITE_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_F_FASTEST_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_F_SLOWEST_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_F_VARIANCE_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	14040442893910032779	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_OPENS	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_FILENOS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_DUPS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_READS	590	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SEEKS	8710	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_STATS	20	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_MMAPS	-1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_FSYNCS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_FDSYNCS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_RENAME_SOURCES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_RENAME_TARGETS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_RENAMED_FROM	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_MODE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_BYTES_READ	2282881150	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_BYTES_WRITTEN	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_MAX_BYTE_READ	224093622	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_MAX_BYTE_WRITTEN	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_CONSEC_READS	540	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_CONSEC_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SEQ_READS	550	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SEQ_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_RW_SWITCHES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_MEM_NOT_ALIGNED	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_MEM_ALIGNMENT	8	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_FILE_NOT_ALIGNED	40	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_FILE_ALIGNMENT	1048576	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_MAX_READ_TIME_SIZE	4194304	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_MAX_WRITE_TIME_SIZE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_READ_0_100	30	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_READ_100_1K	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_READ_1K_10K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_READ_10K_100K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_READ_100K_1M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_READ_1M_4M	550	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_READ_4M_10M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_READ_10M_100M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_READ_100M_1G	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_READ_1G_PLUS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_WRITE_0_100	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_WRITE_100_1K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_WRITE_1K_10K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_WRITE_10K_100K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_WRITE_100K_1M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_WRITE_1M_4M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_WRITE_4M_10M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_WRITE_10M_100M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_WRITE_100M_1G	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SIZE_WRITE_1G_PLUS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_STRIDE1_STRIDE	219899297	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_STRIDE2_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_STRIDE3_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_STRIDE4_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_STRIDE1_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_STRIDE2_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_STRIDE3_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_STRIDE4_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_ACCESS1_ACCESS	4194304	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_ACCESS2_ACCESS	1795511	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_ACCESS3_ACCESS	124	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_ACCESS4_ACCESS	42	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_ACCESS1_COUNT	540	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_ACCESS2_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_ACCESS3_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_ACCESS4_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_FASTEST_RANK	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_FASTEST_RANK_BYTES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SLOWEST_RANK	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_SLOWEST_RANK_BYTES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_F_OPEN_START_TIMESTAMP	35.479970	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_F_READ_START_TIMESTAMP	35.482805	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_F_WRITE_START_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_F_CLOSE_START_TIMESTAMP	35.984864	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_F_OPEN_END_TIMESTAMP	71.456915	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_F_READ_END_TIMESTAMP	71.697779	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_F_WRITE_END_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_F_CLOSE_END_TIMESTAMP	71.701576	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_F_READ_TIME	0.481663	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_F_WRITE_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_F_META_TIME	0.016841	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_F_MAX_READ_TIME	0.014805	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_F_MAX_WRITE_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_F_FASTEST_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_F_SLOWEST_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_F_VARIANCE_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	9585429743788833467	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_OPENS	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_FILENOS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_DUPS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_READS	590	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SEEKS	8710	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_STATS	20	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_MMAPS	-1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_FSYNCS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_FDSYNCS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_RENAME_SOURCES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_RENAME_TARGETS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_RENAMED_FROM	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_MODE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_BYTES_READ	2282881150	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_BYTES_WRITTEN	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_MAX_BYTE_READ	224093622	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_MAX_BYTE_WRITTEN	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_CONSEC_READS	540	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_CONSEC_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SEQ_READS	550	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SEQ_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_RW_SWITCHES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_MEM_NOT_ALIGNED	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_MEM_ALIGNMENT	8	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_FILE_NOT_ALIGNED	40	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_FILE_ALIGNMENT	1048576	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_MAX_READ_TIME_SIZE	4194304	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_MAX_WRITE_TIME_SIZE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_READ_0_100	30	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_READ_100_1K	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_READ_1K_10K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_READ_10K_100K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_READ_100K_1M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_READ_1M_4M	550	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_READ_4M_10M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_READ_10M_100M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_READ_100M_1G	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_READ_1G_PLUS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_WRITE_0_100	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_WRITE_100_1K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_WRITE_1K_10K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_WRITE_10K_100K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_WRITE_100K_1M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_WRITE_1M_4M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_WRITE_4M_10M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_WRITE_10M_100M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_WRITE_100M_1G	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SIZE_WRITE_1G_PLUS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_STRIDE1_STRIDE	219899297	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_STRIDE2_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_STRIDE3_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_STRIDE4_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_STRIDE1_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_STRIDE2_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_STRIDE3_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_STRIDE4_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_ACCESS1_ACCESS	4194304	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_ACCESS2_ACCESS	1795511	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_ACCESS3_ACCESS	124	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_ACCESS4_ACCESS	42	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_ACCESS1_COUNT	540	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_ACCESS2_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_ACCESS3_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_ACCESS4_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_FASTEST_RANK	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_FASTEST_RANK_BYTES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SLOWEST_RANK	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_SLOWEST_RANK_BYTES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_F_OPEN_START_TIMESTAMP	35.984651	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_F_READ_START_TIMESTAMP	35.985846	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_F_WRITE_START_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_F_CLOSE_START_TIMESTAMP	36.464556	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_F_OPEN_END_TIMESTAMP	71.700509	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_F_READ_END_TIMESTAMP	71.941623	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_F_WRITE_END_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_F_CLOSE_END_TIMESTAMP	71.943609	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_F_READ_TIME	0.466150	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_F_WRITE_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_F_META_TIME	0.014957	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_F_MAX_READ_TIME	0.016125	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_F_MAX_WRITE_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_F_FASTEST_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_F_SLOWEST_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_F_VARIANCE_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	13136590911799909526	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_OPENS	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_FILENOS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_DUPS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_READS	590	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SEEKS	8710	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_STATS	20	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_MMAPS	-1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_FSYNCS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_FDSYNCS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_RENAME_SOURCES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_RENAME_TARGETS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_RENAMED_FROM	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_MODE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_BYTES_READ	2282881150	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_BYTES_WRITTEN	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_MAX_BYTE_READ	224093622	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_MAX_BYTE_WRITTEN	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_CONSEC_READS	540	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_CONSEC_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SEQ_READS	550	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SEQ_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_RW_SWITCHES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_MEM_NOT_ALIGNED	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_MEM_ALIGNMENT	8	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_FILE_NOT_ALIGNED	40	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_FILE_ALIGNMENT	1048576	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_MAX_READ_TIME_SIZE	4194304	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_MAX_WRITE_TIME_SIZE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_READ_0_100	30	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_READ_100_1K	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_READ_1K_10K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_READ_10K_100K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_READ_100K_1M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_READ_1M_4M	550	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_READ_4M_10M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_READ_10M_100M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_READ_100M_1G	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_READ_1G_PLUS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_WRITE_0_100	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_WRITE_100_1K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_WRITE_1K_10K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_WRITE_10K_100K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_WRITE_100K_1M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_WRITE_1M_4M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_WRITE_4M_10M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_WRITE_10M_100M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_WRITE_100M_1G	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SIZE_WRITE_1G_PLUS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_STRIDE1_STRIDE	219899297	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_STRIDE2_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_STRIDE3_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_STRIDE4_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_STRIDE1_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_STRIDE2_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_STRIDE3_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_STRIDE4_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_ACCESS1_ACCESS	4194304	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_ACCESS2_ACCESS	1795511	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_ACCESS3_ACCESS	124	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_ACCESS4_ACCESS	42	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_ACCESS1_COUNT	540	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_ACCESS2_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_ACCESS3_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_ACCESS4_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_FASTEST_RANK	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_FASTEST_RANK_BYTES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SLOWEST_RANK	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_SLOWEST_RANK_BYTES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_F_OPEN_START_TIMESTAMP	35.985788	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_F_READ_START_TIMESTAMP	35.989448	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_F_WRITE_START_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_F_CLOSE_START_TIMESTAMP	36.478950	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_F_OPEN_END_TIMESTAMP	71.702203	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_F_READ_END_TIMESTAMP	71.942591	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_F_WRITE_END_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_F_CLOSE_END_TIMESTAMP	71.947244	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_F_READ_TIME	0.457050	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_F_WRITE_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_F_META_TIME	0.016931	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_F_MAX_READ_TIME	0.018956	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_F_MAX_WRITE_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_F_FASTEST_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_F_SLOWEST_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_F_VARIANCE_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	11537190413115710392	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_OPENS	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_FILENOS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_DUPS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_READS	590	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SEEKS	8710	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_STATS	20	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_MMAPS	-1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_FSYNCS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_FDSYNCS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_RENAME_SOURCES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_RENAME_TARGETS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_RENAMED_FROM	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_MODE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_BYTES_READ	2282881150	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_BYTES_WRITTEN	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_MAX_BYTE_READ	224093622	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_MAX_BYTE_WRITTEN	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_CONSEC_READS	540	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_CONSEC_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SEQ_READS	550	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SEQ_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_RW_SWITCHES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_MEM_NOT_ALIGNED	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_MEM_ALIGNMENT	8	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_FILE_NOT_ALIGNED	40	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_FILE_ALIGNMENT	1048576	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_MAX_READ_TIME_SIZE	4194304	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_MAX_WRITE_TIME_SIZE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_READ_0_100	30	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_READ_100_1K	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_READ_1K_10K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_READ_10K_100K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_READ_100K_1M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_READ_1M_4M	550	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_READ_4M_10M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_READ_10M_100M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_READ_100M_1G	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_READ_1G_PLUS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_WRITE_0_100	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_WRITE_100_1K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_WRITE_1K_10K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_WRITE_10K_100K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_WRITE_100K_1M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_WRITE_1M_4M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_WRITE_4M_10M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_WRITE_10M_100M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_WRITE_100M_1G	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SIZE_WRITE_1G_PLUS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_STRIDE1_STRIDE	219899297	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_STRIDE2_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_STRIDE3_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_STRIDE4_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_STRIDE1_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_STRIDE2_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_STRIDE3_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_STRIDE4_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_ACCESS1_ACCESS	4194304	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_ACCESS2_ACCESS	1795511	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_ACCESS3_ACCESS	124	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_ACCESS4_ACCESS	42	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_ACCESS1_COUNT	540	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_ACCESS2_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_ACCESS3_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_ACCESS4_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_FASTEST_RANK	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_FASTEST_RANK_BYTES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SLOWEST_RANK	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_SLOWEST_RANK_BYTES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_F_OPEN_START_TIMESTAMP	35.989154	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_F_READ_START_TIMESTAMP	35.989735	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_F_WRITE_START_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_F_CLOSE_START_TIMESTAMP	36.474936	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_F_OPEN_END_TIMESTAMP	71.701533	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_F_READ_END_TIMESTAMP	71.942477	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_F_WRITE_END_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_F_CLOSE_END_TIMESTAMP	71.946442	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_F_READ_TIME	0.457778	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_F_WRITE_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_F_META_TIME	0.014896	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_F_MAX_READ_TIME	0.020207	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_F_MAX_WRITE_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_F_FASTEST_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_F_SLOWEST_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_F_VARIANCE_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	14203150491942845496	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_OPENS	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_FILENOS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_DUPS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_READS	590	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SEEKS	8710	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_STATS	20	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_MMAPS	-1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_FSYNCS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_FDSYNCS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_RENAME_SOURCES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_RENAME_TARGETS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_RENAMED_FROM	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_MODE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_BYTES_READ	2282881150	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_BYTES_WRITTEN	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_MAX_BYTE_READ	224093622	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_MAX_BYTE_WRITTEN	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_CONSEC_READS	540	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_CONSEC_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SEQ_READS	550	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SEQ_WRITES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_RW_SWITCHES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_MEM_NOT_ALIGNED	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_MEM_ALIGNMENT	8	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_FILE_NOT_ALIGNED	40	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_FILE_ALIGNMENT	1048576	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_MAX_READ_TIME_SIZE	4194304	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_MAX_WRITE_TIME_SIZE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_READ_0_100	30	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_READ_100_1K	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_READ_1K_10K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_READ_10K_100K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_READ_100K_1M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_READ_1M_4M	550	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_READ_4M_10M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_READ_10M_100M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_READ_100M_1G	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_READ_1G_PLUS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_WRITE_0_100	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_WRITE_100_1K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_WRITE_1K_10K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_WRITE_10K_100K	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_WRITE_100K_1M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_WRITE_1M_4M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_WRITE_4M_10M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_WRITE_10M_100M	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_WRITE_100M_1G	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SIZE_WRITE_1G_PLUS	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_STRIDE1_STRIDE	219899297	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_STRIDE2_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_STRIDE3_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_STRIDE4_STRIDE	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_STRIDE1_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_STRIDE2_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_STRIDE3_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_STRIDE4_COUNT	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_ACCESS1_ACCESS	4194304	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_ACCESS2_ACCESS	1795511	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_ACCESS3_ACCESS	124	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_ACCESS4_ACCESS	42	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_ACCESS1_COUNT	540	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_ACCESS2_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_ACCESS3_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_ACCESS4_COUNT	10	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_FASTEST_RANK	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_FASTEST_RANK_BYTES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SLOWEST_RANK	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_SLOWEST_RANK_BYTES	0	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_F_OPEN_START_TIMESTAMP	35.991872	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_F_READ_START_TIMESTAMP	35.992356	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_F_WRITE_START_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_F_CLOSE_START_TIMESTAMP	36.483871	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_F_OPEN_END_TIMESTAMP	71.699280	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_F_READ_END_TIMESTAMP	71.941755	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_F_WRITE_END_TIMESTAMP	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_F_CLOSE_END_TIMESTAMP	71.944023	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_F_READ_TIME	0.473063	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_F_WRITE_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_F_META_TIME	0.014574	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_F_MAX_READ_TIME	0.020203	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_F_MAX_WRITE_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_F_FASTEST_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_F_SLOWEST_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_F_VARIANCE_RANK_TIME	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+POSIX	0	12480451381118798908	POSIX_F_VARIANCE_RANK_BYTES	0.000000	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+
+# *******************************************************
+# LUSTRE module data
+# *******************************************************
+
+# description of LUSTRE counters:
+#   LUSTRE_OSTS: number of OSTs across the entire file system.
+#   LUSTRE_MDTS: number of MDTs across the entire file system.
+#   LUSTRE_STRIPE_OFFSET: OST ID offset specified when the file was created.
+#   LUSTRE_STRIPE_SIZE: stripe size for file in bytes.
+#   LUSTRE_STRIPE_WIDTH: number of OSTs over which the file is striped.
+#   LUSTRE_OST_ID_*: indices of OSTs over which the file is striped.
+
+#<module>	<rank>	<record id>	<counter>	<value>	<file name>	<mount pt>	<fs type>
+LUSTRE	0	7193853378186460998	LUSTRE_OSTS	298	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+LUSTRE	0	7193853378186460998	LUSTRE_MDTS	16	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+LUSTRE	0	7193853378186460998	LUSTRE_STRIPE_OFFSET	-1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+LUSTRE	0	7193853378186460998	LUSTRE_STRIPE_SIZE	1048576	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+LUSTRE	0	7193853378186460998	LUSTRE_STRIPE_WIDTH	1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+LUSTRE	0	7193853378186460998	LUSTRE_OST_ID_0	34	/pscratch/sd/n/nlewi26/data/unet3d/train/img_039_of_192.npz	/pscratch	lustre
+LUSTRE	0	9585429743788833467	LUSTRE_OSTS	298	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+LUSTRE	0	9585429743788833467	LUSTRE_MDTS	16	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+LUSTRE	0	9585429743788833467	LUSTRE_STRIPE_OFFSET	-1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+LUSTRE	0	9585429743788833467	LUSTRE_STRIPE_SIZE	1048576	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+LUSTRE	0	9585429743788833467	LUSTRE_STRIPE_WIDTH	1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+LUSTRE	0	9585429743788833467	LUSTRE_OST_ID_0	123	/pscratch/sd/n/nlewi26/data/unet3d/train/img_033_of_192.npz	/pscratch	lustre
+LUSTRE	0	11340283699496413533	LUSTRE_OSTS	298	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+LUSTRE	0	11340283699496413533	LUSTRE_MDTS	16	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+LUSTRE	0	11340283699496413533	LUSTRE_STRIPE_OFFSET	-1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+LUSTRE	0	11340283699496413533	LUSTRE_STRIPE_SIZE	1048576	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+LUSTRE	0	11340283699496413533	LUSTRE_STRIPE_WIDTH	1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+LUSTRE	0	11340283699496413533	LUSTRE_OST_ID_0	223	/pscratch/sd/n/nlewi26/data/unet3d/train/img_059_of_168.npz	/pscratch	lustre
+LUSTRE	0	11537190413115710392	LUSTRE_OSTS	298	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+LUSTRE	0	11537190413115710392	LUSTRE_MDTS	16	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+LUSTRE	0	11537190413115710392	LUSTRE_STRIPE_OFFSET	-1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+LUSTRE	0	11537190413115710392	LUSTRE_STRIPE_SIZE	1048576	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+LUSTRE	0	11537190413115710392	LUSTRE_STRIPE_WIDTH	1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+LUSTRE	0	11537190413115710392	LUSTRE_OST_ID_0	267	/pscratch/sd/n/nlewi26/data/unet3d/train/img_056_of_168.npz	/pscratch	lustre
+LUSTRE	0	12480451381118798908	LUSTRE_OSTS	298	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+LUSTRE	0	12480451381118798908	LUSTRE_MDTS	16	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+LUSTRE	0	12480451381118798908	LUSTRE_STRIPE_OFFSET	-1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+LUSTRE	0	12480451381118798908	LUSTRE_STRIPE_SIZE	1048576	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+LUSTRE	0	12480451381118798908	LUSTRE_STRIPE_WIDTH	1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+LUSTRE	0	12480451381118798908	LUSTRE_OST_ID_0	145	/pscratch/sd/n/nlewi26/data/unet3d/train/img_021_of_192.npz	/pscratch	lustre
+LUSTRE	0	13136590911799909526	LUSTRE_OSTS	298	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+LUSTRE	0	13136590911799909526	LUSTRE_MDTS	16	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+LUSTRE	0	13136590911799909526	LUSTRE_STRIPE_OFFSET	-1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+LUSTRE	0	13136590911799909526	LUSTRE_STRIPE_SIZE	1048576	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+LUSTRE	0	13136590911799909526	LUSTRE_STRIPE_WIDTH	1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+LUSTRE	0	13136590911799909526	LUSTRE_OST_ID_0	42	/pscratch/sd/n/nlewi26/data/unet3d/train/img_001_of_168.npz	/pscratch	lustre
+LUSTRE	0	14040442893910032779	LUSTRE_OSTS	298	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+LUSTRE	0	14040442893910032779	LUSTRE_MDTS	16	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+LUSTRE	0	14040442893910032779	LUSTRE_STRIPE_OFFSET	-1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+LUSTRE	0	14040442893910032779	LUSTRE_STRIPE_SIZE	1048576	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+LUSTRE	0	14040442893910032779	LUSTRE_STRIPE_WIDTH	1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+LUSTRE	0	14040442893910032779	LUSTRE_OST_ID_0	289	/pscratch/sd/n/nlewi26/data/unet3d/train/img_026_of_192.npz	/pscratch	lustre
+LUSTRE	0	14203150491942845496	LUSTRE_OSTS	298	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+LUSTRE	0	14203150491942845496	LUSTRE_MDTS	16	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+LUSTRE	0	14203150491942845496	LUSTRE_STRIPE_OFFSET	-1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+LUSTRE	0	14203150491942845496	LUSTRE_STRIPE_SIZE	1048576	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+LUSTRE	0	14203150491942845496	LUSTRE_STRIPE_WIDTH	1	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
+LUSTRE	0	14203150491942845496	LUSTRE_OST_ID_0	259	/pscratch/sd/n/nlewi26/data/unet3d/train/img_048_of_168.npz	/pscratch	lustre
